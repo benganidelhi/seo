@@ -1,387 +1,308 @@
-# Page SEO Action Plan — mhinfomedia.in/tally-prime-shortcut-keys/
+# Competitor SEO Action Plan — mhinfomedia.in
 **Date:** 2026-04-09
-**Page Score:** 34/100 (Poor)
-**Page Type:** Blog post / Informational
-**Target Keyword:** `tally prime shortcut keys` + `tally prime shortcut keys 2026`
-**Priority:** Critical → High → Medium → Low
+**Focus:** Comparison pages, competitive positioning, content gap capture
+**Priority:** High → Medium → Low
 
 ---
 
-## Immediate Actions (Do Today)
-
-### 1. 🔴 Update Title Tag — Add Year + Fix Length
-**Impact:** High — freshness signal + stops SERP truncation
-**Effort:** 5 minutes
-
-| | Value |
-|---|---|
-| Current | `Tally Prime Shortcut Keys: Boost Your Efficiency with Navigation` (64 chars ❌) |
-| Recommended | `Tally Prime Shortcut Keys 2026 – Complete List \| M H Infomedia` (63 chars — trim one word) |
-| Tighter option | `Tally Prime Shortcut Keys 2026: Complete List & Guide` (54 chars ✓) |
-
-**How:** WordPress → Yoast/RankMath → this post → Edit SEO Title
+## Comparison Pages to Create (Ordered by Priority)
 
 ---
 
-### 2. 🔴 Write Custom Meta Description
-**Impact:** High — improves CTR from SERP
-**Effort:** 10 minutes
+### Page 1 — "Best Tally on Cloud Providers India 2026"
+**URL:** `/best-tally-on-cloud-india/`
+**Target keyword:** `best tally on cloud India 2026` · `tally on cloud providers comparison India`
+**Type:** Roundup / Best-of
+**Word count target:** 2,000+
+**Conversion goal:** Drive to M H Infomedia's Tally on Cloud product page
 
-```
-Master all Tally Prime shortcut keys in 2026. Complete list covering
-navigation, voucher entry, GST, reports & new Tally Prime 7.0
-shortcuts. Updated by M H Infomedia, Tally Partner since 2009.
-```
-*(156 chars — includes keyword, year, E-E-A-T signal, CTA)*
+#### Full Page Blueprint
+
+**Title:** `5 Best Tally on Cloud Providers in India 2026 — Compared & Ranked`
+**Meta description:** `Compare India's top Tally on Cloud providers in 2026. Pricing, uptime, support, and TDL compatibility reviewed. Find the best plan for your business.` (152 chars)
 
 ---
 
-### 3. 🔴 Add BlogPosting JSON-LD Schema
-**Impact:** High — enables author, date, and breadcrumb rich results
-**Effort:** 15 minutes (add via Yoast/RankMath or custom `<script>`)
+**H1:** 5 Best Tally on Cloud Providers in India 2026
+
+**Introduction (100 words):**
+> Moving Tally Prime to the cloud means your accountants can work from anywhere, data is backed up automatically, and you never miss a GST filing deadline. But not all Tally on Cloud providers offer the same reliability, pricing, or support. We've compared the top options available in India in 2026.
+> *[M H Infomedia is a Tally Certified Partner and sells Tally on Cloud. Disclosure: our service is included in this comparison.]*
+
+---
+
+**Comparison Table:**
+
+| Feature | M H Infomedia | TallyCloudHub | AntraCloud (Antraweb) | HostingSafari | TallyExperts |
+|---|---|---|---|---|---|
+| Starting price | ₹[X]/user/month | ₹400/user/month | Contact for quote | ₹290/user/month | Contact |
+| Free trial | ❌ / ✅ | ❌ | ❌ | ❌ | ❌ |
+| TDL support | ✅ (in-house TDL team) | ⚠️ Partial | ✅ | ⚠️ | ❌ |
+| On-site support (Delhi) | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Uptime SLA | [X]% | 99.9% | Enterprise-grade | N/A | N/A |
+| Backup | ✅ | ✅ | Acronis-powered | ✅ | ✅ |
+| Tally Prime 7.0 ready | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Setup assistance | ✅ | ⚠️ | ✅ | ⚠️ | ⚠️ |
+| Custom TDLs on cloud | ✅ (unique advantage) | ⚠️ | ✅ | ❌ | ❌ |
+
+> *Pricing as of April 2026. Verify with each provider before purchasing.*
+
+---
+
+**Individual Reviews (200–300 words each):**
+
+**#1 M H Infomedia Tally on Cloud**
+- Best for: Delhi/NCR businesses wanting local support + TDL customization on cloud
+- Unique advantage: run M H Infomedia TDL add-ons (WhatsApp, Barcode, Broker) on the cloud instance
+- [Link to product page]
+
+**#2 TallyCloudHub**
+- Best for: budget-conscious SMEs needing pure cloud access
+- Starting at ₹400/user/month, flexible plans
+- No TDL customization services
+
+**#3 AntraCloud (Antraweb)**
+- Best for: large enterprises needing enterprise-grade SLA
+- Acronis backup, multi-city support
+- Premium pricing; better suited for 10+ user deployments
+
+**#4 HostingSafari**
+- Best for: extreme budget constraint (₹290/month entry)
+- Limited support; no advisory services
+
+**#5 TallyExperts**
+- Best for: cloud + Tally consulting bundle
+- Contact for pricing
+
+---
+
+**CTA section:**
+> "M H Infomedia offers Tally on Cloud with full TDL support — the only provider where your custom add-ons (WhatsApp, Barcode, Broker TDL) work seamlessly on the cloud instance. [Get a Quote →](/product/tally-on-cloud/)"
+
+---
+
+**Schema for this page:**
 
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Tally Prime Shortcut Keys 2026: Complete List & Guide",
-  "url": "https://mhinfomedia.in/tally-prime-shortcut-keys/",
-  "datePublished": "2024-01-15",
-  "dateModified": "2026-04-09",
-  "author": {
-    "@type": "Person",
-    "name": "[Author Name]",
-    "jobTitle": "Tally Expert",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "M H Infomedia",
-      "url": "https://mhinfomedia.in/"
-    }
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "M H Infomedia",
-    "@id": "https://mhinfomedia.in/#organization"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://mhinfomedia.in/wp-content/uploads/tally-prime-shortcut-keys-2026.png",
-    "width": 1200,
-    "height": 630
-  },
-  "description": "Complete list of Tally Prime shortcut keys for 2026 including new Tally Prime 7.0 shortcuts for SmartFind, PrimeBanking and more.",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://mhinfomedia.in/tally-prime-shortcut-keys/"
-  },
-  "keywords": "tally prime shortcut keys, tally prime keyboard shortcuts, tally prime 7.0 shortcuts"
-}
-```
-
----
-
-## High Priority (Fix Within 3 Days)
-
-### 4. 🔴 Major Content Update — Expand to 100+ Shortcuts + Add Tally Prime 7.0 Section
-
-**Impact:** Extreme — this is the primary reason the page is not ranking
-**Effort:** 3–5 hours
-
-The article currently covers approximately 6–8 shortcuts based on SERP evidence. Top competitors offer 80–210. Here is a full content upgrade blueprint:
-
----
-
-#### Suggested Article Structure (Post-Update)
-
-**Introduction** (keep short — 100 words)
-> "Knowing Tally Prime shortcut keys can save 30–40% of your daily accounting time. This guide covers every shortcut for Tally Prime 2026 including the new SmartFind and PrimeBanking shortcuts added in Tally Prime 7.0 (December 2025)."
-
----
-
-**Section 1: New in Tally Prime 7.0 (December 2025) ⭐**
-*(Add this prominently — unique differentiator vs. Jan 2024 competitors)*
-
-| Shortcut | Function |
-|---|---|
-| `Ctrl + F` | SmartFind — universal search across vouchers, masters, reports |
-| `Ctrl + G` | Go To (enhanced in v7.0) |
-| `Alt + B` | Auto Backup trigger (new in v7.0) |
-| PrimeBanking shortcuts | [List based on official Tally Prime 7.0 docs] |
-
----
-
-**Section 2: General Navigation Shortcuts**
-
-| Shortcut | Function |
-|---|---|
-| `Tab` | Move to next field |
-| `Shift + Tab` | Move to previous field |
-| `Enter` | Select / accept |
-| `Esc` | Go back / close window |
-| `Alt + G` | Go To — find reports, vouchers, masters |
-| `Ctrl + G` | Switch to — alternate navigation |
-| `F1` | Help |
-| `F3` | Change company |
-| `Alt + F3` | Select company |
-| `Ctrl + Q` | Quit Tally |
-| `Page Up / Page Down` | Scroll through reports |
-| `Ctrl + Home / End` | Jump to first/last record |
-
----
-
-**Section 3: Voucher Entry Shortcuts**
-
-| Shortcut | Function |
-|---|---|
-| `F4` | Contra voucher |
-| `F5` | Payment voucher |
-| `F6` | Receipt voucher |
-| `F7` | Journal voucher |
-| `F8` | Sales voucher |
-| `F9` | Purchase voucher |
-| `Alt + F5` | Payment — toggle modes |
-| `Alt + F6` | Receipt — toggle modes |
-| `Alt + F8` | Sales order |
-| `Alt + F9` | Purchase order |
-| `Ctrl + F8` | Credit note |
-| `Ctrl + F9` | Debit note |
-| `Ctrl + A` | Accept / Save voucher |
-| `Alt + C` | Create new ledger (inline) |
-| `Ctrl + V` | Toggle invoice / voucher mode |
-| `Alt + D` | Delete voucher |
-| `Alt + 2` | Duplicate voucher |
-
----
-
-**Section 4: Master Creation Shortcuts**
-
-| Shortcut | Function |
-|---|---|
-| `Alt + C` | Create new master (while in voucher) |
-| `Alt + E` | Edit current master |
-| `Alt + D` | Delete current master |
-| `Ctrl + Enter` | Alter selected master |
-
----
-
-**Section 5: Report & Display Shortcuts**
-
-| Shortcut | Function |
-|---|---|
-| `F2` | Change date / period |
-| `Alt + F2` | Change period of report |
-| `F4` | Group / filter in reports |
-| `F12` | Configure report |
-| `Alt + F12` | Filter data in reports |
-| `Ctrl + B` | Change value display |
-| `Ctrl + E` | Export report |
-| `Ctrl + M` | Email report |
-| `Ctrl + P` | Print report |
-| `Ctrl + H` | Change view / mode |
-| `Alt + F5` | Auto-column toggle |
-| `F7` | Show/hide tax details |
-
----
-
-**Section 6: Printing & Export Shortcuts**
-
-| Shortcut | Function |
-|---|---|
-| `Ctrl + P` | Print |
-| `Alt + P` | Print with options |
-| `Ctrl + E` | Export (PDF, Excel, CSV) |
-| `Ctrl + M` | Email directly from Tally |
-
----
-
-**Section 7: GST-Specific Shortcuts**
-
-| Shortcut | Function |
-|---|---|
-| `Alt + J` | GST details in voucher |
-| `F5` (in GST reports) | Payment voucher for GST |
-| `Ctrl + E` | Export GSTR returns |
-
----
-
-**Section 8: Inventory Shortcuts**
-
-| Shortcut | Function |
-|---|---|
-| `Alt + F7` | Stock journal |
-| `Alt + F8` | Delivery note |
-| `Alt + F9` | Receipt note |
-| `Ctrl + F8` | Rejection out |
-| `Ctrl + F9` | Rejection in |
-
----
-
-**Section 9: Customisation & How to Add Your Own Shortcuts**
-> "Using Tally Prime TDL, you can create new keyboard shortcuts for custom workflows. [Link to M H Infomedia TDL products]"
-> Path: Gateway of Tally → Keyboard Shortcuts
-
----
-
-**Closing CTA:**
-> "Want to extend Tally Prime with custom shortcut-driven workflows? M H Infomedia's TDL add-ons let you add custom keyboard triggers for WhatsApp sharing, barcode printing, MSME registration and more. [Browse TDL Add-ons →]"
-
----
-
-### 5. ⚠️ Add Visible Author Byline + Bio
-**Impact:** High — E-E-A-T signal, required post December 2025 core update
-
-Add below the H1 or above the first section:
-
-```
-By [Author Name], Tally Expert | M H Infomedia
-Tally Certified Partner since 2009 · Last updated: April 2026
-```
-
-If no specific author, use:
-```
-By M H Infomedia Team | Tally Certified Partner since 2009
-Last updated: April 2026
-```
-
----
-
-### 6. ⚠️ Add Open Graph + Twitter Card Tags
-**Impact:** Medium — social sharing previews, referral traffic
-**Effort:** 15 minutes (Yoast/RankMath handles automatically if configured)
-
-Required:
-```html
-<meta property="og:title" content="Tally Prime Shortcut Keys 2026: Complete List & Guide">
-<meta property="og:description" content="Master all 100+ Tally Prime shortcut keys including new Tally Prime 7.0 SmartFind shortcuts. Updated guide by M H Infomedia, Tally Partner since 2009.">
-<meta property="og:image" content="https://mhinfomedia.in/wp-content/uploads/tally-prime-shortcut-keys-og.png">
-<meta property="og:url" content="https://mhinfomedia.in/tally-prime-shortcut-keys/">
-<meta property="og:type" content="article">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Tally Prime Shortcut Keys 2026: Complete List & Guide">
-<meta name="twitter:description" content="100+ Tally Prime shortcut keys including new Tally Prime 7.0 shortcuts. Free printable table.">
-```
-
-**OG Image spec:** 1200×630px. Use a clean shortcut key table screenshot or designed card.
-
----
-
-### 7. ⚠️ Add Internal Links to TDL Products
-**Impact:** Medium — boosts product page authority + adds conversion path
-**Effort:** 10 minutes (add contextually within article)
-
-Suggested placements:
-
-| Article Section | Link To | Anchor Text |
-|---|---|---|
-| Section 9 (Custom shortcuts via TDL) | `/product/tally-prime-whatsapp-tdl/` | "WhatsApp TDL for Tally Prime" |
-| Section 9 | `/product/barcode-tdl/` | "Barcode TDL add-on" |
-| Closing CTA | `/shop/` | "Browse all TDL add-ons" |
-| Introduction | `/product/tally-on-cloud/` | "Tally on Cloud" (mention v7.0 access) |
-
----
-
-## Medium Priority (Fix Within 2 Weeks)
-
-### 8. ⚠️ Create a Downloadable PDF Version
-**Impact:** High — unique content asset, backlink magnet, engagement signal
-**Effort:** Medium (2–3 hours design + upload)
-
-TallySchool's "Free PDF Download" shortcut key guide is a major traffic driver and backlink source. Create:
-- A clean, printable PDF: "Tally Prime Shortcut Keys 2026 — Complete Cheat Sheet by M H Infomedia"
-- Host at `/tally-prime-shortcut-keys-pdf/` or as a direct download
-- Gate with email opt-in OR offer free (free = more backlinks)
-- Add to the article: "📥 Download Free PDF Cheat Sheet →"
-
-This is the single highest-effort/highest-return content asset this article can have.
-
----
-
-### 9. ⚠️ Add a Shortcut Key Comparison Table (HTML table, not image)
-**Impact:** High — tables are highly crawlable, AI-citable, and create "Featured Snippet" eligibility
-
-Replace or supplement prose descriptions with proper `<table>` elements:
-
-```html
-<table>
-  <thead>
-    <tr><th>Shortcut Key</th><th>Function</th><th>Where to Use</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>F8</td><td>Open Sales voucher</td><td>Voucher entry screen</td></tr>
-    <tr><td>F9</td><td>Open Purchase voucher</td><td>Voucher entry screen</td></tr>
-    ...
-  </tbody>
-</table>
-```
-
-Tables also increase the probability of winning a **Featured Snippet** (position 0) for "tally prime shortcut keys list".
-
----
-
-### 10. ⚠️ Add "Last Updated" Date Visibly on Page
-**Impact:** Medium — freshness signal for users and Google
-**Effort:** Very Low (5 minutes)
-
-Add visibly near title or byline:
-```
-Last Updated: April 2026 | Originally Published: January 2024
-```
-
-Also update `dateModified` in the JSON-LD schema (covered in Action 3).
-
----
-
-### 11. ⚠️ Add Related Article Links (Internal Cluster)
-**Impact:** Medium — strengthens topical authority cluster
-**Effort:** Low (10 minutes)
-
-Add at the end of the article:
-
-```
-Related Articles:
-→ How to Activate TDL in Tally Prime
-→ The Benefits of Using Tally Prime TDL
-→ [Tally Prime 7.0 Guide — once written]
-→ Tally on Cloud: Access Tally from Anywhere
-```
-
----
-
-## Low Priority / Future
-
-### 12. Capture Featured Snippet for Shortcut Key Tables
-Once HTML tables are added (Action 9), optimise H2 headers to match question-style queries:
-- "What are the most important Tally Prime shortcut keys?"
-- "How do I open a Sales voucher in Tally Prime?" (Answer: Press F8)
-- "What is the shortcut for GST in Tally Prime?"
-
-These directly target "People Also Ask" boxes in SERP.
-
-### 13. Add Breadcrumb Schema
-```json
-{
-  "@type": "BreadcrumbList",
+  "@type": "ItemList",
+  "name": "Best Tally on Cloud Providers India 2026",
+  "description": "Comparison of top Tally on Cloud providers in India including pricing, features, and support.",
+  "url": "https://mhinfomedia.in/best-tally-on-cloud-india/",
+  "numberOfItems": 5,
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mhinfomedia.in/" },
-    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mhinfomedia.in/blogs/" },
-    { "@type": "ListItem", "position": 3, "name": "Tally Prime Shortcut Keys 2026", "item": "https://mhinfomedia.in/tally-prime-shortcut-keys/" }
+    { "@type": "ListItem", "position": 1, "name": "M H Infomedia Tally on Cloud", "url": "https://mhinfomedia.in/product/tally-on-cloud/" },
+    { "@type": "ListItem", "position": 2, "name": "TallyCloudHub", "url": "https://tallycloudhub.com/" },
+    { "@type": "ListItem", "position": 3, "name": "AntraCloud by Antraweb", "url": "https://www.antraweb.com/product/tally-on-cloud" },
+    { "@type": "ListItem", "position": 4, "name": "HostingSafari Tally on Cloud", "url": "https://www.hostingsafari.com/tally-on-cloud.php" },
+    { "@type": "ListItem", "position": 5, "name": "TallyExperts Cloud", "url": "https://tallyexperts.co.in/" }
   ]
 }
 ```
 
-### 14. Monitor GSC Performance After Updates
-Track in Google Search Console → Performance → filter by this URL:
-- Target: Top 10 for "tally prime shortcut keys 2026" within 8 weeks of update
-- Track: impressions, clicks, avg. position, CTR
+---
+
+### Page 2 — "Best Tally TDL Add-ons for Small Business India 2026"
+**URL:** `/best-tally-tdl-addons-india/`
+**Target keyword:** `best tally TDL add-ons India` · `tally prime add-ons list 2026`
+**Type:** Roundup featuring M H Infomedia's own TDLs
+**Word count target:** 2,000+
+
+#### Blueprint
+
+**Title:** `8 Best Tally Prime TDL Add-ons for Small Business India 2026`
+**Meta description:** `Discover the best Tally Prime TDL add-ons for Indian SMEs in 2026. WhatsApp integration, barcode printing, broker commission, MSME invoicing & more. Reviewed by M H Infomedia.` (175 chars — trim slightly)
+
+**H1:** 8 Best Tally Prime TDL Add-ons for Small Business India 2026
+
+**Introduction:**
+> TDL add-ons extend Tally Prime's default capabilities without changing its core software. These 8 add-ons are the most impactful for Indian small businesses in 2026, covering GST invoicing, WhatsApp automation, commission tracking, and barcode management.
+
+**Add-on Reviews (feature M H Infomedia TDLs prominently):**
+
+| # | TDL | Best For | Provider | Price |
+|---|---|---|---|---|
+| 1 | WhatsApp TDL | Share invoices/statements via WhatsApp from Tally | M H Infomedia | ₹[X] |
+| 2 | Broker/Commission TDL | Auto-calculate broker commissions on sales | M H Infomedia | ₹[X] |
+| 3 | Barcode TDL | Print + scan barcodes in Tally Prime | M H Infomedia | ₹[X] |
+| 4 | MSME Registration TDL | Print MSME reg. no. on invoices (compliance) | M H Infomedia | ₹[X] |
+| 5 | Custom Invoice Message TDL | Add marketing/T&C text to invoices | M H Infomedia | ₹[X] |
+| 6 | Auto Backup TDL | Automated Tally data backup | Various | ₹999+ |
+| 7 | Document Attachment TDL | Attach PDFs/images to vouchers | TDLStore | ₹[X] |
+| 8 | Salesman Wise Report TDL | Track sales by salesman | TDLStore | ₹[X] |
+
+**CTA:** "M H Infomedia's TDLs come with installation support and Delhi on-site help. [Browse All TDLs →](/shop/)"
+
+**Schema:**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Tally Prime TDL Add-ons for Small Business India 2026",
+  "numberOfItems": 8,
+  "url": "https://mhinfomedia.in/best-tally-tdl-addons-india/"
+}
+```
 
 ---
 
-## Expected Impact After Full Implementation
+### Page 3 — M H Infomedia vs TDLStore.in
+**URL:** `/mhinfomedia-vs-tdlstore/`
+**Target keyword:** `mhinfomedia vs tdlstore` · `best place to buy tally TDL India`
+**Type:** Direct head-to-head comparison
+**Word count target:** 1,500+
 
-| Metric | Current | Post-Update Target (8 weeks) |
+#### Blueprint
+
+**Title:** `M H Infomedia vs TDLStore.in: Which Tally TDL Source is Right for You? (2026)`
+**Meta description:** `M H Infomedia vs TDLStore.in compared — pricing, products, support, and installation. Find out which Tally TDL provider suits your business in India.` (152 chars)
+
+**Comparison Table:**
+
+| Feature | M H Infomedia | TDLStore.in |
 |---|---|---|
-| SERP position (target keyword) | Not in top 30 | Top 10 |
-| Monthly organic clicks to this page | ~0–5 est. | 200–500 |
-| Featured snippet eligibility | None | Eligible (shortcut tables) |
-| Backlinks from "shortcut keys" roundups | 0 | 3–5 natural links |
-| On-page score | 34/100 | 68–75/100 |
+| Type | Full-service Tally partner | Dedicated TDL e-store |
+| Founded | 2009 | N/A |
+| Tally Partner certified | ✅ | ❌ |
+| Free trial | ❌ | ✅ (3-day trial) |
+| Installation support | ✅ On-site (Delhi) + Remote | Remote (Anydesk/Zoom) |
+| Advisory services | ✅ (Tally implementation, training) | ❌ |
+| Tally on Cloud | ✅ | ❌ |
+| Tally licence sales | ✅ | ❌ |
+| WhatsApp TDL | ✅ (proprietary) | ❌ |
+| Broker TDL | ✅ (proprietary) | ✅ (different version) |
+| Barcode TDL | ✅ | ✅ |
+| MSME Invoice TDL | ✅ | ❌ |
+| Number of TDLs | ~8 specialist | 50+ |
+| Pricing (TDLs) | ₹[X]–₹[Y] | From ₹1,999 |
+| GST invoice | ✅ | ✅ |
+| After-sale support | ✅ (ongoing) | Ticket-based |
+
+**Verdict section:**
+> **Choose M H Infomedia if:** you need installation help, want on-site support in Delhi, need Tally advisory alongside your TDL, or want Tally on Cloud bundled with your add-ons.
+>
+> **Choose TDLStore.in if:** you're comfortable with self-installation, want to browse 50+ TDLs, or want a 3-day free trial before buying.
+
+**Disclosure:** *M H Infomedia operates this website. This comparison is based on publicly available information as of April 2026.*
+
+---
+
+### Page 4 — Tally Partner Delhi: Local Comparison
+**URL:** `/tally-partner-delhi/`
+**Target keyword:** `tally partner Delhi` · `tally customization Delhi NCR`
+**Type:** Local landing page (doubles as comparison)
+**Word count target:** 1,200+
+
+#### Blueprint
+
+**Title:** `Tally Prime Partner in Delhi – M H Infomedia | TDL & Cloud Since 2009`
+**Meta description:** `Looking for a trusted Tally Prime partner in Delhi NCR? M H Infomedia offers TDL customization, Tally on Cloud, and on-site support since 2009. Call +91-9999505049.` (162 chars — trim by 2)
+
+**Content sections:**
+1. Why choose a local Delhi Tally partner (on-site support, same timezone, Hindi/English)
+2. M H Infomedia's Delhi credentials (17 years, Tally partner, specific address)
+3. Services available in Delhi: TDL add-ons, Tally on Cloud, Tally licence, training
+4. Client use cases (manufacturing, trading, CA firms in Delhi NCR)
+5. How to get started (CTA: call / WhatsApp / contact form)
+
+**LocalBusiness Schema** (add to this page):
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "M H Infomedia",
+  "description": "Tally Prime TDL customization, Tally on Cloud, and Tally software — Delhi NCR since 2009.",
+  "url": "https://mhinfomedia.in/tally-partner-delhi/",
+  "telephone": "+91-9999505049",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Delhi",
+    "addressRegion": "Delhi NCR",
+    "addressCountry": "IN"
+  },
+  "areaServed": ["Delhi", "Noida", "Gurgaon", "Faridabad", "Ghaziabad"],
+  "foundingDate": "2009"
+}
+```
+
+---
+
+### Page 5 — Tally on Cloud vs On-Premise: Cost Comparison
+**URL:** `/tally-on-cloud-vs-on-premise/`
+**Target keyword:** `tally on cloud vs on premise India` · `is tally on cloud worth it India 2026`
+**Type:** Concept comparison (evergreen)
+**Word count target:** 1,800+
+
+#### Blueprint
+
+**Title:** `Tally on Cloud vs On-Premise: True Cost Comparison India 2026`
+**Meta description:** `Should you move Tally Prime to the cloud in 2026? We compare total cost of ownership, security, accessibility, and TDL compatibility. Includes India-specific pricing.` (167 chars — trim slightly)
+
+**Cost comparison table:**
+
+| Cost Factor | On-Premise | Tally on Cloud |
+|---|---|---|
+| Tally Prime licence | ₹22,500 (Silver) | Included or separate |
+| TSS renewal/year | ₹4,500 | Usually included |
+| Server hardware | ₹30,000–₹80,000 | ₹0 |
+| IT maintenance | ₹5,000–₹20,000/yr | ₹0 |
+| Cloud subscription | ₹0 | ₹400–₹1,000/user/month |
+| Accessibility | Office only | Anywhere |
+| Backup | Manual | Automatic |
+| TDL support | Full | Varies by provider |
+| **Year 1 total (2 users)** | **~₹75,000–₹1,25,000** | **~₹9,600–₹24,000** |
+
+> Note: Year 1 hardware cost makes on-premise more expensive upfront. Cloud becomes more expensive if running 5+ users long-term.
+
+**CTA:** "M H Infomedia offers Tally on Cloud with full TDL support. [Get a quote →](/product/tally-on-cloud/)"
+
+---
+
+## Supporting Actions
+
+### Internal Linking Structure for Comparison Pages
+
+```
+/best-tally-on-cloud-india/
+  └── links to → /product/tally-on-cloud/
+  └── links to → /tally-on-cloud-vs-on-premise/
+  └── links to → /best-tally-tdl-addons-india/
+
+/best-tally-tdl-addons-india/
+  └── links to → each product page (/product/broker-tdl/ etc.)
+  └── links to → /best-tally-on-cloud-india/
+
+/mhinfomedia-vs-tdlstore/
+  └── links to → /shop/
+  └── links to → /best-tally-tdl-addons-india/
+
+/tally-partner-delhi/
+  └── links to → /about-us/
+  └── links to → /contact-information/
+  └── links to → /product/tally-on-cloud/
+  └── links to → /shop/
+```
+
+---
+
+## First-Mover Advantage Note
+
+A search of `site:antraweb.com`, `site:tdlstore.in`, and `site:tallycloudhub.com` returns **zero comparison or "vs" pages** from any competitor. This is a significant first-mover opportunity — **whichever Tally provider publishes these pages first will own the comparison keyword traffic** for years.
+
+Estimated timelines to first ranking:
+- Comparison pages with 1,500+ words: 4–8 weeks to first page (low competition)
+- Local landing page: 2–4 weeks (very low competition for "tally partner Delhi NCR")
+- Roundup pages: 6–10 weeks (moderate competition)
+
+---
+
+## KPI Targets (Track Monthly via GSC)
+
+| Page | Keyword Target | 3-Month Goal |
+|---|---|---|
+| /best-tally-on-cloud-india/ | "best tally on cloud India" | Top 5 |
+| /best-tally-tdl-addons-india/ | "best tally TDL add-ons" | Top 10 |
+| /mhinfomedia-vs-tdlstore/ | "buy tally TDL online India" | Top 10 |
+| /tally-partner-delhi/ | "tally partner Delhi" | Top 3 (local) |
+| /tally-on-cloud-vs-on-premise/ | "tally cloud vs on premise" | Top 5 |

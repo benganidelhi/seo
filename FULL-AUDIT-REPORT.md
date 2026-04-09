@@ -1,201 +1,226 @@
-# Single-Page SEO Audit — mhinfomedia.in/tally-prime-shortcut-keys/
+# Competitor SEO Analysis — mhinfomedia.in
 **Date:** 2026-04-09
-**Scope:** single-page
-**URL:** https://mhinfomedia.in/tally-prime-shortcut-keys/
+**Scope:** Competitor landscape + comparison page opportunities
 **Auditor:** Agentic SEO Skill v1.0
-**Score Confidence:** Low-Medium (proxy blocked direct HTML access; evidence from SERP snippets, competitor analysis, and public signals)
+**Market:** Tally Prime TDL customization, Tally on Cloud — India
 
 ---
 
-## Page Score Card
+## A) Competitive Landscape Summary
 
-```
-Overall Score: 34/100
+### Market Position of M H Infomedia
 
-On-Page SEO:     35/100  ████░░░░░░
-Content Quality: 30/100  ███░░░░░░░
-Technical:       45/100  █████░░░░░
-Schema:          20/100  ██░░░░░░░░
-Images:          No data ░░░░░░░░░░
-```
-
----
-
-## A) Audit Summary
-
-### Top 3 Issues
-1. **Article is 2+ years outdated** — published January 2024, never updated. Tally Prime 7.0 (December 2025) introduced major new shortcuts (SmartFind `Ctrl+F`, PrimeBanking, Auto Backup triggers) that are almost certainly missing from the article.
-2. **Title exceeds 60-char limit and lacks year** — "Tally Prime Shortcut Keys: Boost Your Efficiency with Navigation" is 64 chars (will be truncated in SERP) and has no "2026" freshness signal. Every top-ranking competitor uses a year tag.
-3. **Content depth severely insufficient vs. competitors** — Page is not appearing in top search results for "tally prime shortcut keys complete list 2026". Competitors offer 80–210+ shortcuts with examples; the mhinfomedia article covers far fewer based on SERP snippet evidence.
-
-### Top 3 Quick Wins
-1. Update title to include "2026" and fix length (15 min)
-2. Add `dateModified` and update article with Tally Prime 7.0 shortcuts (2–3 hrs)
-3. Add `Article`/`BlogPosting` JSON-LD with author and dateModified (30 min)
-
----
-
-## B) Page Metadata (Confirmed from SERP)
-
-| Element | Value | Status |
+| Signal | M H Infomedia | Market Leader (Antraweb) |
 |---|---|---|
-| **Title** | `Tally Prime Shortcut Keys: Boost Your Efficiency with Navigation` | ⚠️ 64 chars (over limit), no year |
-| **URL** | `/tally-prime-shortcut-keys/` | ✅ Clean, descriptive, hyphenated |
-| **Published** | January 15, 2024 | ⚠️ 2+ years old, no update confirmed |
-| **Meta Description** | Not confirmed (auto-generated likely) | ⚠️ Unknown |
-| **H1** | Likely matches title (Confirmed pattern) | ℹ️ Unknown exact text |
-| **Schema** | No Article rich results in SERP | 🔴 Missing |
-| **Author byline** | Not visible in SERP snippet | ⚠️ Missing |
-| **Indexed** | Yes — appears in `site:mhinfomedia.in` | ✅ Pass |
+| Founded | 2009 (17 yrs) | 1993 (33 yrs) |
+| Tally Partner Tier | Certified (tier unknown) | Gold / Largest in India |
+| Implementations | Unknown | 5,500+ |
+| TDL Products | ~6–8 specific add-ons | 250+ ready add-ons |
+| Blog Content | Thin (~8 posts indexed) | Active (20+ posts, 2026-dated) |
+| Google Indexed Pages | ~15–20 | 50+ |
+| Cloud Product | Tally on Cloud | AntraCloud |
+| Content Marketing | Minimal | Strong |
+| Location | Delhi | Mumbai + multi-city |
+
+**Assessment:** M H Infomedia competes in the same market but is a boutique/specialist operator. The site is losing organic visibility to larger generalist partners and to dedicated TDL stores. However, it has a defensible niche: **Delhi-local Tally expertise + specific TDL products** that Antraweb's scale doesn't offer as targeted packages.
 
 ---
 
-## C) Findings Table
+## B) Competitor Profiles
 
-| Area | Severity | Confidence | Finding | Evidence | Fix |
-|---|---|---|---|---|---|
-| On-Page — Title Length | ⚠️ Warning | Confirmed | Title is 64 chars, exceeds 60-char maximum; will truncate in SERP | SERP snippet: "Tally Prime Shortcut Keys: Boost Your Efficiency with Navigation" (64 chars) | Shorten to ≤60 chars |
-| On-Page — Title Freshness | ⚠️ Warning | Confirmed | Title has no year ("2026") — all top-ranking competitors include year for freshness signal | TallyAtCloud: "…You Must Know in 2026", AIAccountant: "…[Updated 2026]", MarkIT: "…2026 (with Examples)" | Add "2026" to title |
-| On-Page — Title Keyword | ✅ Pass | Confirmed | Primary keyword "Tally Prime Shortcut Keys" at start of title | SERP snippet confirmed | No action needed |
-| On-Page — URL | ✅ Pass | Confirmed | `/tally-prime-shortcut-keys/` — clean, readable, keyword-rich | URL pattern confirmed | No action needed |
-| On-Page — Meta Description | ⚠️ Warning | Likely | No custom meta description; Google auto-generates snippet | SERP shows pulled sentence ("Navigating Tally Prime with keyboard shortcuts is likened to having a GPS…") | Write 120–160 char compelling description |
-| Content — Freshness / Staleness | 🔴 Critical | Confirmed | Published January 15, 2024 — 27+ months old. Tally Prime 7.0 (Dec 2025) added SmartFind `Ctrl+F`, PrimeBanking shortcuts, and Auto Backup triggers not covered in this article | Publication date confirmed; Tally Prime 7.0 released Dec 19, 2025 | Update article with v7.0 shortcuts; add `dateModified` markup |
-| Content — Depth vs. Competitors | 🔴 Critical | Confirmed | Page not ranking for "tally prime shortcut keys 2026"; competitors offer 80–210+ shortcuts vs. mhinfomedia's fewer | TallyCloudHub: 210+, AIAccountant: 130+, MarkIT: 80+. mhinfomedia.in absent from top SERP positions | Expand to 100+ shortcuts across all categories with examples |
-| Content — Completeness | ⚠️ Warning | Confirmed | Article covers only 3 categories (navigation, data entry, reports) based on SERP-extracted content; missing GST, inventory, payroll, master creation, printing, export shortcuts | SERP snippet covers: Tab/Shift+Tab, F8/F9, Ctrl+V, Alt+C, Alt+F12, Ctrl+B only | Add full shortcut categories: GST, inventory, master creation, printing, export |
-| Content — Author E-E-A-T | ⚠️ Warning | Likely | No author byline visible in SERP snippet; Dec 2025 core update requires author attribution on all competitive content | SERP shows no author; competitors like antraweb.com and aiaccountant.com show named authors | Add author name, job title ("Tally Expert at M H Infomedia since 2009"), and brief bio |
-| Content — PDF Download CTA | ⚠️ Warning | Likely | No downloadable PDF offered; top competitor TallySchool offers "Free PDF Download: Use Tally 200% Faster" — a proven engagement and backlink driver | TallySchool ranks for "tally shortcut keys PDF download"; mhinfomedia does not | Create a printable PDF version and add as downloadable CTA |
-| Content — Tally Prime 7.0 Gap | 🔴 Critical | Confirmed | Tally Prime 7.0 (Dec 2025) introduced SmartFind (`Ctrl+F`), PrimeBanking, enhanced Auto Backup — none of these can be in a Jan 2024 article | Tally Prime 7.0 launch confirmed Dec 19, 2025 | Add a "New in Tally Prime 7.0" section with new shortcuts |
-| Content — Internal Links | ⚠️ Warning | Unknown | Internal links to relevant TDL products (WhatsApp TDL, Barcode TDL) likely absent or minimal | No product links visible in SERP snippet | Add 2–4 contextual internal links: WhatsApp TDL, Tally on Cloud, Barcode TDL |
-| Technical — HTTPS | ✅ Pass | Confirmed | Served over HTTPS | URL scheme confirmed | No action needed |
-| Technical — Indexed | ✅ Pass | Confirmed | Page indexed and appears in site search | `site:mhinfomedia.in` search | No action needed |
-| Technical — Canonical | ℹ️ Info | Unknown | Self-referencing canonical not verifiable | Direct access blocked | Verify `<link rel="canonical">` points to exact page URL |
-| Technical — Open Graph | ⚠️ Warning | Likely | OG tags not confirmed; likely missing or WP default | No rich preview signals in social shares | Add `og:title`, `og:description`, `og:image` (1200×630px shortcut key screenshot) |
-| Technical — Twitter Card | ⚠️ Warning | Likely | Twitter Card not confirmed | Same as above | Add `twitter:card`, `twitter:title`, `twitter:description`, `twitter:image` |
-| Schema — Article / BlogPosting | 🔴 Critical | Confirmed | No Article rich result in SERP (no author, no date, no breadcrumb shown as schema) | SERP shows plain blue link with no structured data annotation | Add BlogPosting JSON-LD: author, datePublished (2024-01-15), dateModified, headline, image |
-| Images — Screenshot/Visual | ⚠️ Warning | Likely | Shortcut key content is highly visual — competitors use tables and screenshots; mhinfomedia article may lack structured shortcut tables or visual aids | SERP snippet uses only prose text, no table data extracted | Add formatted shortcut key tables + annotated screenshots; include alt text with shortcuts |
-| Images — Alt Text | ℹ️ Info | Unknown | Alt text on any images unknown | Direct access blocked | Ensure all images have descriptive alt text: "Tally Prime F8 Sales Voucher shortcut key" |
+### 1. Antraweb Technologies — antraweb.com
+**Threat Level: 🔴 High**
+
+| Attribute | Detail |
+|---|---|
+| Founded | 1993 (33+ years) |
+| Status | India's largest Tally partner |
+| Implementations | 5,500+ across India & UAE |
+| Products | 250+ TDL add-ons, TallyPrime sales, AntraCloud, Support |
+| Cloud | AntraCloud — enterprise-grade, Acronis backup, zero VPN |
+| Pricing | TSS Silver ₹4,500/yr · Gold ₹13,500/yr (+ 18% GST) |
+| Locations | Mumbai, Pune, Hyderabad, Aurangabad |
+| Blog | Active — "Top 10 shortcuts", Tally Prime 7.0 content, GST guides |
+| Content Strength | **Very High** — ranks for most Tally informational queries |
+| SEO Strength | High domain authority; multiple pages ranked |
+
+**mhinfomedia.in vs antraweb.com angle:**
+Antraweb is an enterprise-scale firm. M H Infomedia's counter-position: **"Boutique Delhi-based Tally expert — personal service, faster TDL delivery, no corporate overhead."**
 
 ---
 
-## D) Competitive Gap Analysis
+### 2. TDLStore.in — tdlstore.in
+**Threat Level: 🔴 High (direct TDL store competitor)**
 
-### SERP Landscape for "tally prime shortcut keys"
+| Attribute | Detail |
+|---|---|
+| Type | Dedicated online TDL store (no local partner services) |
+| Tagline | "No. 1 Tally Shop for TDL add-ons" |
+| Products | Invoice TDL, Productivity, MIS, Security, Banking, Business-specific |
+| Pricing | From ₹1,999/TDL; discount codes available |
+| Trial | 3-day free trial download for all TDLs |
+| Free Tier | Free TDL downloads (multiple) |
+| Content | "Top 10 TDL add-ons" list, updated 2026 catalogue |
+| Delivery | Instant — licence key via email |
+| Support | Anydesk/Zoom remote installation support |
 
-| Competitor | Strengths | Why They Outrank mhinfomedia.in |
+**mhinfomedia.in vs tdlstore.in angle:**
+TDLStore is pure e-commerce with no advisory services. M H Infomedia's counter-position: **"We don't just sell TDLs — we install, configure, and support them. Delhi clients get on-site help."**
+
+---
+
+### 3. TallyCloudHub — tallycloudhub.com
+**Threat Level: ⚠️ Medium (Tally on Cloud only)**
+
+| Attribute | Detail |
+|---|---|
+| Type | Tally on Cloud specialist |
+| Products | User-based cloud, VM plans, Dedicated servers |
+| Pricing | User-based: ₹400/user/month · VM: ₹2,800/month · Dedicated: ₹11,760/month |
+| Uptime | 99.9% guarantee |
+| Support | 24/7 |
+| Content | 210+ shortcut keys guide; cloud pricing guides |
+| Audience | SMEs, CAs, freelancers to enterprises |
+
+**mhinfomedia.in vs tallycloudhub.com angle:**
+TallyCloudHub offers no TDL customization or on-premise Tally support. M H Infomedia's counter-position: **"Full-service Delhi Tally partner — cloud + TDL customization + on-site support in one."**
+
+---
+
+### 4. Absoft Solutions — absoftindia.com
+**Threat Level: ⚠️ Medium**
+
+| Attribute | Detail |
+|---|---|
+| Founded | 2005 (21 years) |
+| Certification | 5 Star Certified Tally Partner |
+| Clients | 5,000+ |
+| Services | Tally Prime, TSS Renewal, Cloud Hosting, AMC, TDL |
+| Location | Dombivli (Mumbai area) |
+| Verticals | Industry-specific modules |
+
+**mhinfomedia.in vs absoft angle:**
+Absoft is Mumbai-focused. M H Infomedia owns the **Delhi/NCR geography** — local businesses prefer local partners for on-site support.
+
+---
+
+### 5. New Access Technologies — newaccesstechnologies.com
+**Threat Level: ⚠️ Medium**
+
+| Attribute | Detail |
+|---|---|
+| Experience | 15+ years |
+| Locations | Bangalore, Hyderabad, Mumbai, Delhi, Pune, Chennai, UAE, Nigeria, Kenya |
+| Services | TallyPrime customization, multi-city |
+
+**Note:** New Access has a Delhi office — **direct local competitor to M H Infomedia for Delhi enterprise clients.**
+
+---
+
+### 6. Ascent India — ascentindia.dev
+**Threat Level: 🟢 Low**
+
+| Attribute | Detail |
+|---|---|
+| Founded | 2010 |
+| Location | Pune |
+| Clients | 1,000+ |
+| Services | Tally sales + TDL customization |
+
+Geographically distinct (Pune) — low direct threat.
+
+---
+
+## C) SEO Keyword Gap Analysis
+
+### Keywords Competitors Own — mhinfomedia.in Does Not
+
+| Keyword | Competitor Ranking | Monthly Search Est. | Opportunity |
+|---|---|---|---|
+| tally prime TDL add-ons | tdlstore.in, antraweb.com | High | 🔴 Direct product match |
+| tally prime customization India | antraweb.com, newaccesstechnologies.com | High | 🔴 Core service |
+| tally on cloud India pricing | tallycloudhub.com, tallyexperts.co.in | High | 🔴 Direct product match |
+| best tally TDL store India | tdlstore.in | Medium | ⚠️ Comparison opportunity |
+| tally partner Delhi | newaccesstechnologies.com | Medium | ⚠️ Local opportunity |
+| tally prime whatsapp integration | mhinfomedia (product, low visibility) | Medium | ⚠️ Strengthen existing |
+| broker module tally prime | tdlstore.in, mhinfomedia (low) | Medium | ⚠️ Deepen content |
+| tally prime barcode TDL | Various | Low-Medium | ⚠️ Own this niche |
+| antraweb alternatives | None (gap) | Low | ✅ Create comparison page |
+| tdlstore alternatives | None (gap) | Low | ✅ Create comparison page |
+| tally customization Delhi NCR | Sparse | Medium | ✅ Local SEO win |
+
+---
+
+## D) Comparison Page Opportunities
+
+Ranked by conversion potential (SaaS comparison pages convert at 4–7%):
+
+### Priority 1 — "Best Tally on Cloud India 2026" Roundup
+**Target keyword:** `best tally on cloud India 2026` · `tally on cloud providers India`
+**Type:** Roundup / Best-of page
+**Why:** Tally on Cloud is a high-value recurring revenue product. No definitive "best provider" roundup exists from a Tally partner with hands-on experience.
+
+---
+
+### Priority 2 — "Best Tally TDL Add-ons for Small Business India 2026"
+**Target keyword:** `best tally TDL add-ons India` · `tally prime add-ons list`
+**Type:** Roundup — M H Infomedia's own TDLs featured alongside context
+**Why:** M H Infomedia can naturally feature its own TDLs as the recommended options, driving direct purchase.
+
+---
+
+### Priority 3 — "M H Infomedia vs TDLStore.in — Which Tally TDL Source is Right for You?"
+**Target keyword:** `mhinfomedia vs tdlstore` · `buy tally TDL online India`
+**Type:** Direct comparison
+**Why:** Users choosing between a dedicated TDL e-store vs. a full-service partner is a real decision moment.
+
+---
+
+### Priority 4 — "Tally Partner Delhi: M H Infomedia vs New Access Technologies"
+**Target keyword:** `tally partner Delhi` · `tally customization Delhi NCR`
+**Type:** Local comparison
+**Why:** High commercial intent; Delhi/NCR market is large; M H Infomedia has home-city advantage.
+
+---
+
+### Priority 5 — "Tally on Cloud vs On-Premise: Full Cost Comparison India 2026"
+**Target keyword:** `tally on cloud vs on premise India` · `tally cloud pricing vs licence`
+**Type:** Concept comparison
+**Why:** Evergreen educational content that drives Tally on Cloud product sales.
+
+---
+
+## E) Content Gap vs. Top Competitors
+
+| Content Type | Antraweb | TDLStore | TallyCloudHub | M H Infomedia |
+|---|---|---|---|---|
+| Tally Prime 7.0 guide | ✅ | ❌ | ✅ | ❌ |
+| New financial year guide | ✅ | ❌ | ❌ | ❌ |
+| TDL activation how-to | ✅ | ✅ | ❌ | ✅ |
+| Shortcut keys guide (2026) | ✅ | ❌ | ✅ (210+) | ⚠️ (outdated) |
+| Tally on Cloud pricing page | ✅ | ❌ | ✅ | ⚠️ (product page only) |
+| Comparison / vs pages | ❌ | ❌ | ❌ | ❌ |
+| Free TDL trial / download | ❌ | ✅ | ❌ | ❌ |
+| GST compliance guide | ✅ | ❌ | ❌ | ❌ |
+| WhatsApp TDL guide | ❌ | ❌ | ❌ | ✅ (product page) |
+| Broker TDL guide | ❌ | ✅ (competitor) | ❌ | ✅ (product page) |
+| Barcode TDL guide | ❌ | ✅ (competitor) | ❌ | ✅ (product page) |
+
+**Key observations:**
+1. **No competitor has comparison/vs pages** — first mover wins all comparison keyword traffic
+2. **WhatsApp TDL is underexploited** — only mhinfomedia.in sells this; it needs a standalone guide
+3. **Free TDL trial** — only TDLStore offers this; a trial CTA could dramatically increase conversions for mhinfomedia
+4. **GST + Tally content** — Antraweb dominates; major gap for mhinfomedia
+
+---
+
+## F) Unique Differentiators M H Infomedia Should Exploit
+
+| Differentiator | Competitors Have This? | How to Surface in SEO |
 |---|---|---|
-| tallysolutions.com (official) | Definitive source, 1st-party authority | Google treats official docs as highest authority |
-| help.tallysolutions.com | Official help docs | Same as above |
-| tallycloudhub.com | **210+ shortcuts**, comprehensive tables | Volume + freshness + structured format |
-| aiaccountant.com | **130+ shortcuts, Updated 2026**, clean tables | Freshness signal + depth |
-| tallyatcloud.com | **Multiple articles, 2026-dated**, covers Tally Prime 7.0 shortcuts | Multiple ranking pages, topical authority |
-| markitsolutions.in | **80+ shortcuts with examples, 2026** | Depth + freshness |
-| tallyschool.com | **Free PDF download**, high engagement signals | Unique content asset drives backlinks |
-| antraweb.com | "Top 10 must-know shortcuts" — tight editorial focus | Brand authority + E-E-A-T |
-
-### What mhinfomedia.in Has That Others Don't
-- Tally Certified Partner credentials (since 2009) — **E-E-A-T advantage if surfaced**
-- TDL product pages to link to (contextual CTAs)
-- Delhi-based practitioner with real Tally usage — **first-hand experience signal**
-
-### The Winning Strategy
-mhinfomedia.in cannot out-authority tallysolutions.com. But it **can** differentiate by:
-1. Being the first to publish a comprehensive **Tally Prime 7.0 shortcut keys** guide (competitors have 2025/2026 dates but content may not reflect v7.0)
-2. Offering a **free PDF download** (no other TDL seller does this for shortcuts)
-3. Adding a "**TDL shortcuts enhancer**" angle — linking how custom TDLs can add new keyboard shortcuts to Tally Prime (unique content angle only M H Infomedia can own)
-
----
-
-## E) Scoring Chain-of-Thought
-
-### On-Page SEO (35/100)
-**Positives (3):**
-1. Primary keyword "Tally Prime Shortcut Keys" at start of title — confirmed
-2. URL `/tally-prime-shortcut-keys/` — clean and descriptive
-3. Page indexed — Google has accepted the page
-
-**Deficits (4):**
-1. Title 64 chars — exceeds 60-char limit, will truncate
-2. No year in title — freshness signal missing
-3. Meta description likely auto-generated
-4. Internal links to products unknown
-
-`base = 3/7 × 100 = 43`
-Penalties: 2 Warnings (over-length title −5, no year tag −5) = **33 → 35**
-
----
-
-### Content Quality (30/100)
-**Positives (3):**
-1. Covers multiple shortcut categories — navigation, data entry, reports
-2. Conversational tone improves readability for non-technical users
-3. Exact keyword match to user intent (shortcut keys)
-
-**Deficits (5):**
-1. Published January 2024 — 27+ months old, Tally Prime 7.0 shortcuts missing
-2. Not ranking for target keyword — content depth insufficient vs. 80–210+ shortcut competitors
-3. Covers only ~6 specific shortcuts in visible SERP evidence
-4. No author attribution or bio
-5. No downloadable PDF or unique content asset
-
-`base = 3/8 × 100 = 37.5`
-Penalties: 2 Criticals (staleness −15, thin vs. competitors −15) → capped: **37.5 - 30 = 7.5 → 30** (minimum floor)
-
----
-
-### Technical (45/100)
-**Positives (3):**
-1. HTTPS ✓
-2. Clean URL ✓
-3. Indexed ✓
-
-**Deficits (4):**
-1. Meta description — unverified (likely auto-generated)
-2. OG / Twitter tags — unverified
-3. Canonical — unverified
-4. Image dimensions + lazy loading — unknown
-
-`base = 3/7 × 100 = 43`
-Adjusted: **45** (partial credit for likely WP-standard technical setup)
-
----
-
-### Schema (20/100)
-**Positives (0):**
-No schema-driven rich results visible in SERP.
-
-**Deficits (4):**
-1. No Article / BlogPosting rich result
-2. No author markup
-3. No datePublished / dateModified visible
-4. No BreadcrumbList in SERP
-
-`base = 0/4 × 100 = 0`
-Adjusted: **20** (WordPress may generate minimal schema — giving minimum credit)
-
----
-
-## F) Environment Limitations
-
-| Check | Tool | How to Run |
-|---|---|---|
-| Full HTML source | DevTools / View Source | Check title, meta, canonical, OG, schema |
-| Schema validation | Rich Results Test | https://search.google.com/test/rich-results?url=https://mhinfomedia.in/tally-prime-shortcut-keys/ |
-| Core Web Vitals | PageSpeed Insights | https://pagespeed.web.dev/analysis?url=https://mhinfomedia.in/tally-prime-shortcut-keys/ |
-| Exact word count | View page source | Count body text words |
-| Internal links | DevTools → Elements | Count and check anchor text |
-| Image audit | DevTools → Network → Images | File size, format, alt text |
-| Google Search Console | GSC → Performance | Click data, impressions, avg. position for this URL |
-
----
-
-## G) Unknowns → Follow-ups
-
-| Item | What to Check | Priority |
-|---|---|---|
-| GSC performance for this URL | Impressions, clicks, avg. position for "tally prime shortcut keys" | High |
-| Exact word count | View source → count body text | High |
-| Schema present? | Rich Results Test | High |
-| Meta description set? | View source → `<meta name="description">` | Medium |
-| OG image present? | View source → `og:image` | Medium |
-| Number of shortcuts listed | Count all shortcuts in article | High — determines how much to expand |
-| Internal links to products | View page → check for TDL product links | Medium |
+| Delhi-based on-site support | Antraweb (not Delhi-focused), New Access (multi-city) | Local landing page + LocalBusiness schema + Google My Business |
+| Tally Partner since 2009 | Antraweb 1993, Absoft 2005, Ascent 2010 | Not unique on date, but 17 years is strong — put on every page |
+| WhatsApp TDL product | No competitor has a branded WhatsApp TDL | Create standalone landing page: `/tally-prime-whatsapp-tdl/` with guide |
+| Broker TDL product | TDLStore has a broker module (different) | Create "Broker TDL vs Manual Commission Tracking in Tally" content |
+| Boutique personalised service | Large firms (Antraweb) can't claim this | "Work directly with a Tally expert — not a support ticket" messaging |
+| MSME-specific TDL | No major competitor has this product | Create "How to Print MSME Registration on Tally Prime Invoice" guide |
