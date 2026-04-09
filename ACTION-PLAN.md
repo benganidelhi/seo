@@ -1,390 +1,387 @@
-# SEO Action Plan — mhinfomedia.in
+# Page SEO Action Plan — mhinfomedia.in/tally-prime-shortcut-keys/
 **Date:** 2026-04-09
-**Overall Score:** 37/100 (Poor)
-**Business Type:** SaaS / Software + E-commerce (Tally TDL & Partner)
+**Page Score:** 34/100 (Poor)
+**Page Type:** Blog post / Informational
+**Target Keyword:** `tally prime shortcut keys` + `tally prime shortcut keys 2026`
 **Priority:** Critical → High → Medium → Low
 
 ---
 
-## Immediate Blockers (Fix This Week)
+## Immediate Actions (Do Today)
 
-### 1. 🔴 Fix Homepage Title Tag
-**Impact:** High — SERP truncation + syntax error undermines brand credibility
-**Effort:** Very Low (15 minutes)
-**Type:** Quick win
+### 1. 🔴 Update Title Tag — Add Year + Fix Length
+**Impact:** High — freshness signal + stops SERP truncation
+**Effort:** 5 minutes
 
 | | Value |
 |---|---|
-| Current | `Tally Prime -Next Gen customization Solutions By M H Infomedia` (62 chars, syntax error) |
-| Problem | Malformed hyphen ("-Next Gen"), exceeds 60-char limit, no geo |
-| Recommended | `Tally Prime TDL & Customization Solutions \| M H Infomedia, Delhi` (65 chars — trim to fit) |
-| Alternative | `Tally Prime TDL Customization & Cloud \| M H Infomedia India` (60 chars ✓) |
+| Current | `Tally Prime Shortcut Keys: Boost Your Efficiency with Navigation` (64 chars ❌) |
+| Recommended | `Tally Prime Shortcut Keys 2026 – Complete List \| M H Infomedia` (63 chars — trim one word) |
+| Tighter option | `Tally Prime Shortcut Keys 2026: Complete List & Guide` (54 chars ✓) |
 
-**How:** WordPress → Yoast SEO / RankMath → Home page → Edit SEO Title
-
----
-
-### 2. 🔴 Publish Tally Prime 7.0 + New Financial Year Guide (Content Emergency)
-**Impact:** Extreme — both are currently trending, high-volume queries; competitors are ranking, mhinfomedia.in is absent
-**Effort:** Medium (2–3 days)
-**Type:** Strategic (urgent)
-
-Two articles to publish immediately:
-
-**Article 1:** `Tally Prime 7.0 Complete Guide – Features, Upgrade & What's New (2026)`
-- Target keyword: `tally prime 7.0 features` / `tally prime 7.0 upgrade`
-- Length: 1,500+ words
-- Include: feature list, upgrade eligibility, pricing changes, Auto Backup, PrimeBanking, SmartFind
-- CTA: Link to Tally on Cloud and TDL product pages
-- Author byline: founder/expert name + "Tally Certified Partner since 2009"
-
-**Article 2:** `How to Start New Financial Year 2026-27 in Tally Prime – Step by Step`
-- Target keyword: `new financial year tally prime 2026` / `how to start new year tally prime`
-- Length: 1,000+ words with screenshots
-- Include: step-by-step process, GST considerations, data backup, common errors
-- CTA: Link to Tally on Cloud product (annual reset is easier on cloud)
+**How:** WordPress → Yoast/RankMath → this post → Edit SEO Title
 
 ---
 
-### 3. 🔴 Add LocalBusiness Schema + Claim Google My Business
-**Impact:** High — unlocks local pack rankings for "tally partner Delhi" searches
-**Effort:** Low (1 day)
-**Type:** Quick win
+### 2. 🔴 Write Custom Meta Description
+**Impact:** High — improves CTR from SERP
+**Effort:** 10 minutes
 
-**Step A — Add LocalBusiness JSON-LD** to homepage `<head>`:
+```
+Master all Tally Prime shortcut keys in 2026. Complete list covering
+navigation, voucher entry, GST, reports & new Tally Prime 7.0
+shortcuts. Updated by M H Infomedia, Tally Partner since 2009.
+```
+*(156 chars — includes keyword, year, E-E-A-T signal, CTA)*
+
+---
+
+### 3. 🔴 Add BlogPosting JSON-LD Schema
+**Impact:** High — enables author, date, and breadcrumb rich results
+**Effort:** 15 minutes (add via Yoast/RankMath or custom `<script>`)
 
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://mhinfomedia.in/#localbusiness",
-  "name": "M H Infomedia",
-  "description": "Tally Prime TDL customization, Tally on Cloud, and Tally software sales. Tally Certified Partner in Delhi since 2009.",
-  "url": "https://mhinfomedia.in/",
-  "telephone": "+91-9999505049",
-  "email": "contact@mhinfomedia.in",
-  "foundingDate": "2009",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Delhi",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "addressRegion": "Delhi"
-  },
-  "areaServed": "India",
-  "sameAs": [
-    "https://mhinfomedia.in/about-us/"
-  ]
-}
-```
-
-**Step B — Google My Business:**
-1. Search "M H Infomedia Delhi" on Google Maps — claim if unclaimed
-2. Complete profile: category (Computer Software Store / IT Services), address, hours, photos
-3. Add products/services with prices
-4. Request reviews from existing clients
-
----
-
-## Quick Wins (Fix Within 1 Week)
-
-### 4. ⚠️ Rewrite All Generic Page Titles
-**Impact:** High | **Effort:** Low (2–3 hrs)
-
-| Page | Current | Recommended |
-|---|---|---|
-| Homepage | `Tally Prime -Next Gen customization Solutions By M H Infomedia` | `Tally Prime TDL Customization & Cloud \| M H Infomedia India` |
-| Blogs | `Blogs - M H Infomedia` | `Tally Prime Guides & TDL Tips – M H Infomedia Blog` |
-| Shop | `Shop - M H Infomedia` | `Buy Tally Prime TDL Add-ons Online – M H Infomedia` |
-| About Us | `About Us - M H Infomedia` | `About M H Infomedia – Tally Partner Delhi Since 2009` |
-| Contact | `Contact information - M H Infomedia` | `Contact M H Infomedia – Tally Expert Delhi \| +91-9999505049` |
-| Broker TDL | `Broker TDL - M H Infomedia` | `Broker TDL for Tally Prime – Commission & Brokerage Add-on` |
-| Integration category | `Integration - M H Infomedia` | `Tally Prime Integration TDL Add-ons – M H Infomedia` |
-| Sales category | `Sales - M H Infomedia` | `Tally Prime Sales TDL Customizations – M H Infomedia` |
-
-**Rules:** 30–60 chars · keyword first · brand or location at end
-
----
-
-### 5. ⚠️ Write Custom Meta Descriptions for All Key Pages
-**Impact:** High — CTR lift from SERP | **Effort:** Low (2–3 hrs)
-
-| Page | Recommended (120–160 chars) |
-|---|---|
-| Homepage | `M H Infomedia – Tally Certified Partner in Delhi since 2009. Buy TDL add-ons, Tally on Cloud, and custom Tally Prime solutions. Call +91-9999505049.` |
-| Blogs | `Tally Prime guides, TDL tutorials, and accounting tips from M H Infomedia's expert team. Stay updated on Tally Prime 7.0 features and GST compliance.` |
-| Broker TDL | `Automate broker commission calculations in Tally Prime with M H Infomedia's Broker TDL. Easy activation, lifetime validity. Buy online now.` |
-| Tally on Cloud | `Access Tally Prime from anywhere with M H Infomedia's Tally on Cloud. Real-time collaboration, auto backup, and GST compliance. Starting ₹XXX/month.` |
-
----
-
-### 6. ⚠️ Add Organization + WebSite JSON-LD Schema
-**Impact:** High — brand Knowledge Panel, sitelinks search box | **Effort:** Low (1–2 hrs)
-
-```json
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://mhinfomedia.in/#organization",
-      "name": "M H Infomedia",
-      "url": "https://mhinfomedia.in/",
-      "foundingDate": "2009",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://mhinfomedia.in/wp-content/uploads/mh-infomedia-logo.png"
-      },
-      "telephone": "+91-9999505049",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressCountry": "IN"
-      },
-      "description": "Tally Certified Partner in Delhi. Tally Prime TDL customization, Tally on Cloud, integration, and synchronization services since 2009."
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://mhinfomedia.in/#website",
-      "url": "https://mhinfomedia.in/",
-      "name": "M H Infomedia",
-      "publisher": { "@id": "https://mhinfomedia.in/#organization" },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://mhinfomedia.in/?s={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    }
-  ]
-}
-```
-
----
-
-### 7. ⚠️ Add Article/BlogPosting Schema to All Blog Posts
-**Impact:** Medium — blog rich results, author attribution | **Effort:** Low (RankMath/Yoast auto-generates)
-
-Enable in Yoast SEO or RankMath → Schema → Article type for all blog posts. Manually ensure:
-
-```json
-{
   "@type": "BlogPosting",
-  "headline": "Complete Guide for How to Activate TDL in Tally Prime",
+  "headline": "Tally Prime Shortcut Keys 2026: Complete List & Guide",
+  "url": "https://mhinfomedia.in/tally-prime-shortcut-keys/",
+  "datePublished": "2024-01-15",
+  "dateModified": "2026-04-09",
   "author": {
     "@type": "Person",
     "name": "[Author Name]",
     "jobTitle": "Tally Expert",
-    "worksFor": { "@id": "https://mhinfomedia.in/#organization" }
+    "worksFor": {
+      "@type": "Organization",
+      "name": "M H Infomedia",
+      "url": "https://mhinfomedia.in/"
+    }
   },
-  "datePublished": "YYYY-MM-DD",
-  "dateModified": "YYYY-MM-DD",
-  "publisher": { "@id": "https://mhinfomedia.in/#organization" }
+  "publisher": {
+    "@type": "Organization",
+    "name": "M H Infomedia",
+    "@id": "https://mhinfomedia.in/#organization"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://mhinfomedia.in/wp-content/uploads/tally-prime-shortcut-keys-2026.png",
+    "width": 1200,
+    "height": 630
+  },
+  "description": "Complete list of Tally Prime shortcut keys for 2026 including new Tally Prime 7.0 shortcuts for SmartFind, PrimeBanking and more.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://mhinfomedia.in/tally-prime-shortcut-keys/"
+  },
+  "keywords": "tally prime shortcut keys, tally prime keyboard shortcuts, tally prime 7.0 shortcuts"
 }
 ```
 
 ---
 
-### 8. ⚠️ Create llms.txt for AI Search Readiness
-**Impact:** Medium | **Effort:** Very Low (30 min)
+## High Priority (Fix Within 3 Days)
 
-Create `https://mhinfomedia.in/llms.txt`:
+### 4. 🔴 Major Content Update — Expand to 100+ Shortcuts + Add Tally Prime 7.0 Section
+
+**Impact:** Extreme — this is the primary reason the page is not ranking
+**Effort:** 3–5 hours
+
+The article currently covers approximately 6–8 shortcuts based on SERP evidence. Top competitors offer 80–210. Here is a full content upgrade blueprint:
+
+---
+
+#### Suggested Article Structure (Post-Update)
+
+**Introduction** (keep short — 100 words)
+> "Knowing Tally Prime shortcut keys can save 30–40% of your daily accounting time. This guide covers every shortcut for Tally Prime 2026 including the new SmartFind and PrimeBanking shortcuts added in Tally Prime 7.0 (December 2025)."
+
+---
+
+**Section 1: New in Tally Prime 7.0 (December 2025) ⭐**
+*(Add this prominently — unique differentiator vs. Jan 2024 competitors)*
+
+| Shortcut | Function |
+|---|---|
+| `Ctrl + F` | SmartFind — universal search across vouchers, masters, reports |
+| `Ctrl + G` | Go To (enhanced in v7.0) |
+| `Alt + B` | Auto Backup trigger (new in v7.0) |
+| PrimeBanking shortcuts | [List based on official Tally Prime 7.0 docs] |
+
+---
+
+**Section 2: General Navigation Shortcuts**
+
+| Shortcut | Function |
+|---|---|
+| `Tab` | Move to next field |
+| `Shift + Tab` | Move to previous field |
+| `Enter` | Select / accept |
+| `Esc` | Go back / close window |
+| `Alt + G` | Go To — find reports, vouchers, masters |
+| `Ctrl + G` | Switch to — alternate navigation |
+| `F1` | Help |
+| `F3` | Change company |
+| `Alt + F3` | Select company |
+| `Ctrl + Q` | Quit Tally |
+| `Page Up / Page Down` | Scroll through reports |
+| `Ctrl + Home / End` | Jump to first/last record |
+
+---
+
+**Section 3: Voucher Entry Shortcuts**
+
+| Shortcut | Function |
+|---|---|
+| `F4` | Contra voucher |
+| `F5` | Payment voucher |
+| `F6` | Receipt voucher |
+| `F7` | Journal voucher |
+| `F8` | Sales voucher |
+| `F9` | Purchase voucher |
+| `Alt + F5` | Payment — toggle modes |
+| `Alt + F6` | Receipt — toggle modes |
+| `Alt + F8` | Sales order |
+| `Alt + F9` | Purchase order |
+| `Ctrl + F8` | Credit note |
+| `Ctrl + F9` | Debit note |
+| `Ctrl + A` | Accept / Save voucher |
+| `Alt + C` | Create new ledger (inline) |
+| `Ctrl + V` | Toggle invoice / voucher mode |
+| `Alt + D` | Delete voucher |
+| `Alt + 2` | Duplicate voucher |
+
+---
+
+**Section 4: Master Creation Shortcuts**
+
+| Shortcut | Function |
+|---|---|
+| `Alt + C` | Create new master (while in voucher) |
+| `Alt + E` | Edit current master |
+| `Alt + D` | Delete current master |
+| `Ctrl + Enter` | Alter selected master |
+
+---
+
+**Section 5: Report & Display Shortcuts**
+
+| Shortcut | Function |
+|---|---|
+| `F2` | Change date / period |
+| `Alt + F2` | Change period of report |
+| `F4` | Group / filter in reports |
+| `F12` | Configure report |
+| `Alt + F12` | Filter data in reports |
+| `Ctrl + B` | Change value display |
+| `Ctrl + E` | Export report |
+| `Ctrl + M` | Email report |
+| `Ctrl + P` | Print report |
+| `Ctrl + H` | Change view / mode |
+| `Alt + F5` | Auto-column toggle |
+| `F7` | Show/hide tax details |
+
+---
+
+**Section 6: Printing & Export Shortcuts**
+
+| Shortcut | Function |
+|---|---|
+| `Ctrl + P` | Print |
+| `Alt + P` | Print with options |
+| `Ctrl + E` | Export (PDF, Excel, CSV) |
+| `Ctrl + M` | Email directly from Tally |
+
+---
+
+**Section 7: GST-Specific Shortcuts**
+
+| Shortcut | Function |
+|---|---|
+| `Alt + J` | GST details in voucher |
+| `F5` (in GST reports) | Payment voucher for GST |
+| `Ctrl + E` | Export GSTR returns |
+
+---
+
+**Section 8: Inventory Shortcuts**
+
+| Shortcut | Function |
+|---|---|
+| `Alt + F7` | Stock journal |
+| `Alt + F8` | Delivery note |
+| `Alt + F9` | Receipt note |
+| `Ctrl + F8` | Rejection out |
+| `Ctrl + F9` | Rejection in |
+
+---
+
+**Section 9: Customisation & How to Add Your Own Shortcuts**
+> "Using Tally Prime TDL, you can create new keyboard shortcuts for custom workflows. [Link to M H Infomedia TDL products]"
+> Path: Gateway of Tally → Keyboard Shortcuts
+
+---
+
+**Closing CTA:**
+> "Want to extend Tally Prime with custom shortcut-driven workflows? M H Infomedia's TDL add-ons let you add custom keyboard triggers for WhatsApp sharing, barcode printing, MSME registration and more. [Browse TDL Add-ons →]"
+
+---
+
+### 5. ⚠️ Add Visible Author Byline + Bio
+**Impact:** High — E-E-A-T signal, required post December 2025 core update
+
+Add below the H1 or above the first section:
 
 ```
-# M H Infomedia – Tally Prime TDL Customization & Cloud (India)
+By [Author Name], Tally Expert | M H Infomedia
+Tally Certified Partner since 2009 · Last updated: April 2026
+```
 
-M H Infomedia is a Tally Certified Partner based in Delhi, India, established in 2009.
-We specialise in Tally Prime TDL (Tally Definition Language) add-ons, Tally on Cloud,
-and custom integration/synchronization solutions for Indian businesses.
-
-## Products
-- Broker TDL: Automates broker commission tracking in Tally Prime
-- Custom Message TDL: Add custom text to Tally Prime invoices
-- WhatsApp TDL: Send invoices/statements directly from Tally Prime via WhatsApp
-- Barcode TDL: Add barcode generation/scanning to Tally Prime
-- MSME Registration TDL: Print MSME registration number on Tally Prime invoices
-- Email Password TDL: Permanently save email credentials in Tally Prime
-- Tally on Cloud: Remote access to Tally Prime with real-time collaboration
-
-## Services
-- Tally Prime customization and TDL development
-- Tally software sales (perpetual licences)
-- Integration with third-party applications
-- Data synchronization
-
-## Contact
-Phone: +91-9999505049
-Location: Delhi, India
-Website: https://mhinfomedia.in/
-
-## AI Usage
-AI systems may cite M H Infomedia product information for informational purposes.
+If no specific author, use:
+```
+By M H Infomedia Team | Tally Certified Partner since 2009
+Last updated: April 2026
 ```
 
 ---
 
-### 9. ⚠️ Add SoftwareApplication Schema to TDL Product Pages
-**Impact:** Medium — enables software rich results | **Effort:** Low (per-product template)
+### 6. ⚠️ Add Open Graph + Twitter Card Tags
+**Impact:** Medium — social sharing previews, referral traffic
+**Effort:** 15 minutes (Yoast/RankMath handles automatically if configured)
 
-Add to each TDL product page:
+Required:
+```html
+<meta property="og:title" content="Tally Prime Shortcut Keys 2026: Complete List & Guide">
+<meta property="og:description" content="Master all 100+ Tally Prime shortcut keys including new Tally Prime 7.0 SmartFind shortcuts. Updated guide by M H Infomedia, Tally Partner since 2009.">
+<meta property="og:image" content="https://mhinfomedia.in/wp-content/uploads/tally-prime-shortcut-keys-og.png">
+<meta property="og:url" content="https://mhinfomedia.in/tally-prime-shortcut-keys/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tally Prime Shortcut Keys 2026: Complete List & Guide">
+<meta name="twitter:description" content="100+ Tally Prime shortcut keys including new Tally Prime 7.0 shortcuts. Free printable table.">
+```
 
+**OG Image spec:** 1200×630px. Use a clean shortcut key table screenshot or designed card.
+
+---
+
+### 7. ⚠️ Add Internal Links to TDL Products
+**Impact:** Medium — boosts product page authority + adds conversion path
+**Effort:** 10 minutes (add contextually within article)
+
+Suggested placements:
+
+| Article Section | Link To | Anchor Text |
+|---|---|---|
+| Section 9 (Custom shortcuts via TDL) | `/product/tally-prime-whatsapp-tdl/` | "WhatsApp TDL for Tally Prime" |
+| Section 9 | `/product/barcode-tdl/` | "Barcode TDL add-on" |
+| Closing CTA | `/shop/` | "Browse all TDL add-ons" |
+| Introduction | `/product/tally-on-cloud/` | "Tally on Cloud" (mention v7.0 access) |
+
+---
+
+## Medium Priority (Fix Within 2 Weeks)
+
+### 8. ⚠️ Create a Downloadable PDF Version
+**Impact:** High — unique content asset, backlink magnet, engagement signal
+**Effort:** Medium (2–3 hours design + upload)
+
+TallySchool's "Free PDF Download" shortcut key guide is a major traffic driver and backlink source. Create:
+- A clean, printable PDF: "Tally Prime Shortcut Keys 2026 — Complete Cheat Sheet by M H Infomedia"
+- Host at `/tally-prime-shortcut-keys-pdf/` or as a direct download
+- Gate with email opt-in OR offer free (free = more backlinks)
+- Add to the article: "📥 Download Free PDF Cheat Sheet →"
+
+This is the single highest-effort/highest-return content asset this article can have.
+
+---
+
+### 9. ⚠️ Add a Shortcut Key Comparison Table (HTML table, not image)
+**Impact:** High — tables are highly crawlable, AI-citable, and create "Featured Snippet" eligibility
+
+Replace or supplement prose descriptions with proper `<table>` elements:
+
+```html
+<table>
+  <thead>
+    <tr><th>Shortcut Key</th><th>Function</th><th>Where to Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>F8</td><td>Open Sales voucher</td><td>Voucher entry screen</td></tr>
+    <tr><td>F9</td><td>Open Purchase voucher</td><td>Voucher entry screen</td></tr>
+    ...
+  </tbody>
+</table>
+```
+
+Tables also increase the probability of winning a **Featured Snippet** (position 0) for "tally prime shortcut keys list".
+
+---
+
+### 10. ⚠️ Add "Last Updated" Date Visibly on Page
+**Impact:** Medium — freshness signal for users and Google
+**Effort:** Very Low (5 minutes)
+
+Add visibly near title or byline:
+```
+Last Updated: April 2026 | Originally Published: January 2024
+```
+
+Also update `dateModified` in the JSON-LD schema (covered in Action 3).
+
+---
+
+### 11. ⚠️ Add Related Article Links (Internal Cluster)
+**Impact:** Medium — strengthens topical authority cluster
+**Effort:** Low (10 minutes)
+
+Add at the end of the article:
+
+```
+Related Articles:
+→ How to Activate TDL in Tally Prime
+→ The Benefits of Using Tally Prime TDL
+→ [Tally Prime 7.0 Guide — once written]
+→ Tally on Cloud: Access Tally from Anywhere
+```
+
+---
+
+## Low Priority / Future
+
+### 12. Capture Featured Snippet for Shortcut Key Tables
+Once HTML tables are added (Action 9), optimise H2 headers to match question-style queries:
+- "What are the most important Tally Prime shortcut keys?"
+- "How do I open a Sales voucher in Tally Prime?" (Answer: Press F8)
+- "What is the shortcut for GST in Tally Prime?"
+
+These directly target "People Also Ask" boxes in SERP.
+
+### 13. Add Breadcrumb Schema
 ```json
 {
-  "@type": "SoftwareApplication",
-  "name": "Broker TDL for Tally Prime",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Tally Prime",
-  "offers": {
-    "@type": "Offer",
-    "price": "XXX",
-    "priceCurrency": "INR",
-    "availability": "https://schema.org/InStock"
-  },
-  "publisher": { "@id": "https://mhinfomedia.in/#organization" },
-  "description": "Automates broker commission and brokerage tracking within Tally Prime."
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mhinfomedia.in/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mhinfomedia.in/blogs/" },
+    { "@type": "ListItem", "position": 3, "name": "Tally Prime Shortcut Keys 2026", "item": "https://mhinfomedia.in/tally-prime-shortcut-keys/" }
+  ]
 }
 ```
 
----
-
-## Strategic Improvements (Fix Within 1 Month)
-
-### 10. ⚠️ Fix Blog URL Architecture Inconsistency
-**Impact:** Medium — consolidates crawl budget and improves content discoverability
-**Effort:** Medium (1–2 days)
-
-**Current problem:** Blog posts exist at two patterns:
-- `/how-to-activate-tdl-in-tally-prime/` (root-level)
-- `/blogs/` (category hub)
-
-**Solution:**
-1. Decide on canonical path: recommend `/blog/post-slug/`
-2. Move all root-level blog posts to `/blog/post-slug/`
-3. Set up 301 redirects from old URLs
-4. Update internal links and sitemap
-5. Do NOT break existing Google-indexed URLs without redirects
+### 14. Monitor GSC Performance After Updates
+Track in Google Search Console → Performance → filter by this URL:
+- Target: Top 10 for "tally prime shortcut keys 2026" within 8 weeks of update
+- Track: impressions, clicks, avg. position, CTR
 
 ---
 
-### 11. ⚠️ Build a Content Cluster: Tally Prime Topical Authority
-**Impact:** High — capture informational traffic competitors currently own
-**Effort:** High (ongoing, 2–4 articles/month)
-**Type:** Strategic
+## Expected Impact After Full Implementation
 
-**Priority Articles (publish in order):**
-
-| Article | Target Keyword | Competitor to Beat | Funnel Stage |
-|---|---|---|---|
-| Tally Prime 7.0 Complete Guide (2026) | `tally prime 7.0 features` | tallyatcloud.com | ToFu |
-| How to Start New Financial Year 2026-27 in Tally Prime | `new financial year tally prime` | antraweb.com | ToFu |
-| Tally on Cloud Pricing India 2026 – All Plans Compared | `tally on cloud pricing India` | tallycloudhub.com | BoFu |
-| What is TDL in Tally Prime? Complete Beginner's Guide | `what is TDL tally prime` | tdlstore.in | ToFu |
-| Best TDL Add-ons for Tally Prime India 2026 | `best tally prime TDL` | tdlstore.in | MoFu |
-| Tally Prime GST Filing Guide 2026 | `gst in tally prime` | antraweb.com | ToFu |
-| Tally Prime WhatsApp Integration: Full Setup Guide | `tally prime whatsapp TDL` | mhinfomedia.in product (strengthen) | MoFu |
-| How to Print MSME Registration on Tally Prime Invoice | `msme invoice tally prime` | mhinfomedia.in product (strengthen) | MoFu |
-
-**Structure each article:**
-- 1,500+ words
-- Author byline: "[Name], Tally Expert at M H Infomedia since 20XX"
-- Date published + last updated
-- Product CTA linking to relevant TDL
-- Internal links to 2–3 related articles or products
-
----
-
-### 12. ⚠️ Create Comparison Pages (High-Converting SaaS Content)
-**Impact:** High — SaaS comparison pages convert at 4–7% vs 0.5% for standard content
-**Effort:** Medium (1 week for 2–3 pages)
-
-**Priority comparison pages:**
-
-1. `/tally-on-cloud-vs-tdlstore-tally-cloud/` — Compare M H Infomedia's Tally on Cloud vs. competitors
-2. `/best-tally-tdl-store-india/` — "M H Infomedia vs. TallyWebSolutions vs. TDLStore" roundup
-3. `/mhinfomedia-vs-antraweb-tally-customization/` — Direct comparison
-
-**Must include:** Feature comparison table · Pricing · Pros/cons · Real customer quotes · FAQ section *(plain text — no FAQPage schema for commercial sites)*
-
----
-
-### 13. ⚠️ Strengthen E-E-A-T: Tally Partner Credentials Page
-**Impact:** High — post December 2025 core update, E-E-A-T applies to all competitive software queries
-**Effort:** Medium (1 week)
-
-Add to About Us page (or create `/tally-partner-credentials/`):
-- Tally Certified Partner certificate (photo/scan)
-- Tally partner tier (Gold/Silver/Bronze)
-- Years in business: established 2009 (17 years)
-- Number of clients served / TDLs delivered
-- Industry verticals served (manufacturing, trading, services, etc.)
-- Founder/team profiles with names and Tally expertise
-- Press mentions or Tally Solutions recognition
-
----
-
-### 14. ⚠️ Add On-Site Testimonials + AggregateRating Schema
-**Impact:** High — star ratings increase CTR 15–30%
-**Effort:** Medium
-
-1. Enable WooCommerce product reviews on all TDL products
-2. Email existing clients to review specific products on the site
-3. Add `aggregateRating` to Product + SoftwareApplication schema
-4. Add a `/testimonials/` page with named client quotes and use cases
-
----
-
-### 15. ⚠️ Optimise Product Images (LCP)
-**Impact:** Medium-High | **Effort:** Medium
-
-1. Convert product/TDL screenshot images to **WebP** (Imagify or ShortPixel plugin)
-2. Add `width` + `height` to all `<img>` tags (prevents CLS)
-3. `loading="lazy"` on below-fold images
-4. Descriptive alt text: `"Broker TDL for Tally Prime – commission tracking dashboard screenshot"`
-
----
-
-## Backlog (Low Priority)
-
-| # | Item |
-|---|---|
-| 16 | Pricing page: Create `/pricing/` consolidating all TDL + cloud plan prices in one table |
-| 17 | Internal search: Ensure `?s=` results are noindexed in robots.txt |
-| 18 | Canonical tags: Verify products in multiple categories have correct canonicals |
-| 19 | Breadcrumb schema: Enable in Yoast/RankMath for product + blog pages |
-| 20 | AI crawler audit: Verify GPTBot, ClaudeBot, PerplexityBot not blocked in robots.txt |
-| 21 | Dedicated `/tally-on-cloud/` landing page: Separate from product listing, optimised for "tally on cloud India" keyword |
-| 22 | hreflang: Not needed currently; implement if expanding to UAE/UK markets |
-
----
-
-## KPI Dashboard (Track Monthly)
-
-| Metric | Current | 3-Month Target | How to Measure |
-|---|---|---|---|
-| Google indexed pages | ~15–20 | 40+ | `site:mhinfomedia.in` / GSC Pages |
-| Organic sessions | Unknown | +50% | GSC Performance / GA4 |
-| Avg. CTR from search | Unknown | >4% | GSC Performance |
-| Local pack — "tally partner Delhi" | Not appearing | Top 3 | Google Maps search |
-| Products with rich results | 0 | 8+ | GSC Rich Results report |
-| Blog posts ranking on page 1 | ~1–2 | 8+ | GSC Queries report |
-| On-site reviews | 0 | 20+ | WooCommerce reviews |
-| AI Overview citations | 0 | 2+ | Manual search for target queries |
-
----
-
-## Recommended Tool Stack
-
-| Tool | Purpose | Cost |
+| Metric | Current | Post-Update Target (8 weeks) |
 |---|---|---|
-| Google Search Console | Index, CWV, rich results, queries | Free |
-| Google Business Profile | Local pack, Maps, reviews | Free |
-| Google PageSpeed Insights | CWV measurement | Free |
-| Yoast SEO or RankMath | Title, meta, schema, sitemap | Free/Paid |
-| Rich Results Test | Schema validation per page | Free |
-| Screaming Frog (≤500 URLs) | Full crawl audit | Free |
-| ShortPixel or Imagify | WebP + compression | Freemium |
-| Ahrefs Webmaster Tools (free tier) | Keyword gaps vs. competitors | Free |
+| SERP position (target keyword) | Not in top 30 | Top 10 |
+| Monthly organic clicks to this page | ~0–5 est. | 200–500 |
+| Featured snippet eligibility | None | Eligible (shortcut tables) |
+| Backlinks from "shortcut keys" roundups | 0 | 3–5 natural links |
+| On-page score | 34/100 | 68–75/100 |
