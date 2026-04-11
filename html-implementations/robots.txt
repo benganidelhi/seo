@@ -1,0 +1,15 @@
+# robots.txt — cargosimplify.com
+# Updated: 2026-04-10
+
+# Allow all crawlers to access the marketing site
+User-agent: *
+Allow: /
+
+# Block crawling of the app subdomain from the main site context
+# (app.cargosimplify.com has its own robots context)
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /cgi-bin/
+
+# XML Sitemap location (submit this URL to Google Search Console)
+Sitemap: https://cargosimplify.com/sitemap.xml

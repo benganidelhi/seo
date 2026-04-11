@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://cargosimplify.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+
+  <!-- Core product pages -->
+  <url>
+    <loc>https://cargosimplify.com/lorry-broker-software/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+
+  <url>
+    <loc>https://cargosimplify.com/booking.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+
+  <!-- Pricing -->
+  <url>
+    <loc>https://cargosimplify.com/pricing/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+
+  <!-- Company pages -->
+  <url>
+    <loc>https://cargosimplify.com/about/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+
+  <url>
+    <loc>https://cargosimplify.com/contact/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+
+  <!-- GTA FUSION brand page -->
+  <url>
+    <loc>https://cargosimplify.com/gta-fusion/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+
+  <!-- Blog posts -->
+  <url>
+    <loc>https://cargosimplify.com/blog/what-is-bilty-lorry-receipt/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+
+  <url>
+    <loc>https://cargosimplify.com/blog/transport-software-vs-excel-india/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-04-10</lastmod>
+  </url>
+
+</urlset>
