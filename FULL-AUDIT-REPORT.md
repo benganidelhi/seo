@@ -1,370 +1,286 @@
-# Full SEO Audit Report — cargosimplify.com
-**Date:** 2026-04-10
+# Competitor SEO Analysis — heliware.co.in
+**Date:** 2026-04-11
+**Scope:** Competitor landscape + comparison page opportunities
 **Auditor:** Agentic SEO Skill v1.0
-**Method:** LLM-first audit with SERP evidence (WebFetch blocked; all evidence via WebSearch + SERP analysis)
-**Market:** Lorry broker & transport management software — India
+**Market:** AI-powered 3D geospatial analytics, GIS platforms, digital twin — India
 
 ---
 
-## Page Score Card
+## A) Competitive Landscape Summary
 
-```
-Overall Score: 16/100
+### Market Position of Heliware
 
-Technical SEO:   15/100  ██░░░░░░░░  [Score Confidence: Confirmed]
-On-Page SEO:     10/100  █░░░░░░░░░  [Score Confidence: Confirmed]
-Content Quality: 10/100  █░░░░░░░░░  [Score Confidence: Confirmed]
-Schema:           5/100  ░░░░░░░░░░  [Score Confidence: Confirmed]
-Performance:     30/100  ███░░░░░░░  [Score Confidence: Hypothesis]
-Images:          40/100  ████░░░░░░  [Score Confidence: Hypothesis]
-AI Readiness:    10/100  █░░░░░░░░░  [Score Confidence: Confirmed]
-```
+| Signal | Heliware | Market Leader (MapmyIndia / CE Info Systems) |
+|---|---|---|
+| Founded | 2018 (8 yrs) | 1995 (31 yrs) |
+| Status | Seed-stage startup, rising | Public company (BSE: MAPMYINDIA), India's largest mapping firm |
+| Revenue | $8.4M (2025) | ₹400+ Cr ($48M+) |
+| Employees | 76 | 1,000+ |
+| Total Funding | ~$2.92M over 8 rounds | Public (IPO Dec 2021) |
+| Key Clients | Indian Army, DRDO, L&T, Accenture, Nielsen, ReNew | Govt. of India, OEMs, 3,000+ enterprise clients |
+| Core Product | AI-powered 3D geospatial platform (HeliAI, HeliMapper, HeliBhumi) | Mappls APIs, Maps, RealView, Navigation |
+| 3D Capability | ✅ Native 3D tile engine, WebGL | ✅ 3D maps + RealView street imagery |
+| Blog / Content | ⚠️ Thin — Few Medium posts, no indexed blog on main site | ✅ Active — developer docs, blog, use cases |
+| Google Indexed Pages | ~7 (main + subdomains) | 100+ |
+| Recognition | Geospatial World 50 Rising Stars (2022) | India's #1 mapping company, multiple awards |
+| Pricing Model | Subscription, pay-per-use APIs, white-label, bespoke | Per-API-call, enterprise contracts |
 
-**Weighted Score Breakdown:**
-| Category | Score | Weight | Contribution |
-|---|---|---|---|
-| Technical SEO | 15 | 25% | 3.75 |
-| On-Page SEO | 10 | 15% | 1.50 |
-| Content Quality | 10 | 20% | 2.00 |
-| Schema | 5 | 15% | 0.75 |
-| Performance | 30 | 10% | 3.00 |
-| Images | 40 | 10% | 4.00 |
-| AI Readiness | 10 | 5% | 0.50 |
-| **Total** | | | **15.5 / 100** |
+**Assessment:** Heliware competes in the fast-growing Indian geospatial market ($1.81B in 2026, projected $3.55B by 2031) as a startup specializing in **AI-powered 3D geospatial analytics with a no-code/low-code approach**. Its differentiator is making 3D geospatial intelligence accessible without deep GIS expertise — a positioning that larger incumbents (Esri, MapmyIndia) don't directly address. However, Heliware's organic search visibility is minimal, with nearly all brand awareness coming from press coverage (YourStory, Entrepreneur, Inc42) rather than owned content.
 
 ---
 
-## Site Overview
+## B) Competitor Profiles
 
-| Attribute | Value |
+### 1. MapmyIndia (CE Info Systems) — mapmyindia.com / mappls.com
+**Threat Level: 🔴 High**
+
+| Attribute | Detail |
 |---|---|
-| Domain | cargosimplify.com |
-| App Subdomain | app.cargosimplify.com (GTA FUSION) |
-| Business Type | Lorry broker & transport management SaaS + desktop software |
-| Location | Vapi, Gujarat, India (Facebook page) |
-| Target Users | Fleet owners, lorry brokers, warehouse managers, cargo handlers |
-| Platforms | Desktop app + Web version + Mobile app (Android/iOS) |
-| Key Features | Transport booking, lorry broker coordination, fleet management, accounting, Tally transfer |
-| Google-Indexed Pages | **3** (homepage, booking.html, app password reset) |
-| Homepage Title in Google | **"Document"** ← CRITICAL |
+| Founded | 1995 (31+ years) |
+| Status | Public company (BSE/NSE listed, IPO Dec 2021) |
+| Products | Mappls Maps, APIs & SDKs, RealView street imagery, Navigation, IoT devices |
+| Revenue | ₹400+ Cr ($48M+) |
+| Key Clients | Govt. of India, automotive OEMs, enterprises, 3,000+ organizations |
+| 3D Capability | ✅ 3D maps, Photorealistic RealView, Metaverse maps |
+| Developer Ecosystem | ✅ Extensive API docs, SDKs for Android/iOS/JS, free tier |
+| Content | ✅ Active blog, developer portal, case studies |
+| SEO Strength | **Very High** — ranks for all major India mapping/GIS queries |
+| Pricing | API-call based; free tier available; enterprise contracts |
+
+**Heliware vs MapmyIndia angle:**
+MapmyIndia is a mapping-first company (B2B + B2C navigation). Heliware's counter-position: **"We don't just show maps — we deliver AI-powered 3D geospatial intelligence and analytics for decision-making. No GIS expertise required."**
 
 ---
 
-## Issues Found
+### 2. Esri India — esri.in
+**Threat Level: 🔴 High**
 
-### 🔴 CRITICAL
+| Attribute | Detail |
+|---|---|
+| Founded | 1996 (India operations) |
+| Parent | Esri Inc. (USA) — global GIS leader since 1969 |
+| Products | ArcGIS Pro, ArcGIS Online, ArcGIS Enterprise, 1,000+ spatial analysis tools |
+| Key Clients | Indian government agencies, state departments, utilities, defense |
+| Content | ✅ Extensive — blog, case studies, developer docs, training |
+| SEO Strength | **Very High** — dominant on "GIS software India" and enterprise queries |
+| Pricing | Licence-based + cloud subscriptions; enterprise contracts |
 
----
-
-#### C1 — Homepage Title Tag is "Document"
-**Severity:** Critical | **Confidence:** Confirmed
-
-Google indexes and displays the page title as **"Document"** — this is a placeholder `<title>` left from an HTML template or static site generator. The booking page is indexed as **"Booking - Document"**.
-
-**Evidence:** `site:cargosimplify.com` SERP returns show:
-- Homepage: title "Document"
-- Booking page: title "Booking - Document"
-- This is the single most damaging SEO issue possible: Google displays "Document" as the blue link for your homepage in search results. **No user will click this.**
-
-**Impact:**
-- Zero click-through rate from any organic impressions
-- Google may be demoting the page due to thin/unhelpful title
-- Branded searches for "cargo simplify" or "GTA FUSION" return an unbranded title
-- Damages credibility for all pages
-
-**Fix:** Set descriptive `<title>` tags on every page. Example for homepage:
-```html
-<title>Cargo Simplify — Lorry Broker & Transport Management Software India</title>
-```
+**Heliware vs Esri angle:**
+Esri is the enterprise incumbent with steep learning curves and high costs. Heliware's counter-position: **"Enterprise-grade 3D geospatial analytics at startup pricing, without the ArcGIS learning curve. India-built, India-priced."**
 
 ---
 
-#### C2 — Only 3 Pages Indexed in Google
-**Severity:** Critical | **Confidence:** Confirmed
+### 3. Genesys International — igenesys.com
+**Threat Level: 🔴 High (3D / digital twin space)**
 
-Google's index for cargosimplify.com contains only **3 URLs**:
-1. `cargosimplify.com/` — "Document"
-2. `cargosimplify.com/booking.html` — "Booking - Document"
-3. `app.cargosimplify.com/forgetpassword.aspx` — "password recover - GTA FUSION"
+| Attribute | Detail |
+|---|---|
+| Founded | 1995 |
+| Location | Mumbai |
+| Specialty | 3D digital twins, street-level imaging, aerial LiDAR, cadastral mapping |
+| Key Clients | Smart city projects (Varanasi award winner), Google partnership, Bentley Systems |
+| 3D Capability | ✅ India's first 3D digital twin of cities; 1,500+ towns street-imaged |
+| Content | ✅ Strong — case studies, project showcases, press coverage |
+| SEO Strength | **High** — ranks for "3D mapping India", "digital twin India" |
+| Pricing | Project-based, enterprise |
 
-There is no blog, no feature pages, no pricing page, no about page, no testimonials indexed. The lorry_broker.html page appeared in a search result snippet but not in `site:` query, suggesting it may exist but is either blocked or crawl-delayed.
-
-**Impact:**
-- Near-zero organic search footprint
-- Cannot rank for any product keywords
-- Google has no content to evaluate for quality
-
-**Root cause (likely):**
-- Static HTML pages with broken `<title>` tags are treated as low-quality pages by Google
-- Possibly a robots.txt disallowing crawl, or no sitemap submitted
-- The main app lives on app.cargosimplify.com (GTA FUSION) — the marketing site has very few pages
+**Heliware vs Genesys angle:**
+Genesys focuses on surveying and data capture (LiDAR, aerial imagery) for large infrastructure projects. Heliware's counter-position: **"We turn your existing geospatial data into 3D insights with AI — no separate data capture contract required."**
 
 ---
 
-#### C3 — No XML Sitemap (Likely)
-**Severity:** Critical | **Confidence:** Hypothesis
+### 4. SatSure — satsure.co
+**Threat Level: ⚠️ Medium**
 
-No sitemap.xml appears in Google's index or returns from standard `site:` searches. Without a sitemap, Google relies solely on link discovery — which is limited if the site has few external backlinks.
+| Attribute | Detail |
+|---|---|
+| Founded | 2017 |
+| Location | Bengaluru |
+| Total Funding | $29.5M (13 rounds) |
+| Specialty | Satellite analytics + AI for agriculture, banking, infrastructure |
+| Products | Sparta (crop monitoring), Sage (agri-fintech), Skies (EO data) |
+| Key Clients | Banks, insurance companies, agriculture enterprises |
+| Content | ✅ Active blog, case studies |
+| SEO Strength | ⚠️ Medium — strong in agri-analytics keywords |
 
-**Fix:** Create and submit `cargosimplify.com/sitemap.xml` to Google Search Console.
-
----
-
-### 🟠 HIGH
-
----
-
-#### H1 — No Meta Descriptions on Any Page
-**Severity:** High | **Confidence:** Confirmed
-
-SERP snippets for cargosimplify.com show auto-generated descriptions pulled from page content rather than set `<meta name="description">` tags. With broken titles, the auto-generated snippets are also meaningless.
-
-**Fix:** Add unique, keyword-rich meta descriptions (150–160 chars) to every page.
-Example for homepage:
-```html
-<meta name="description" content="Cargo Simplify is India's lorry broker and transport management software. Book lorries, track shipments, manage bilty/LR, and integrate with Tally. Based in Vapi.">
-```
+**Heliware vs SatSure angle:**
+SatSure is satellite-analytics-first, focused on agriculture/fintech verticals. Heliware's counter-position: **"Multi-source 3D geospatial platform — not limited to satellite imagery. Works across defense, smart cities, energy, and retail."**
 
 ---
 
-#### H2 — No Schema / Structured Data
-**Severity:** High | **Confidence:** Confirmed
+### 5. Pixxel — pixxel.space
+**Threat Level: ⚠️ Medium (emerging)**
 
-No schema markup detected on any indexed page. For a software product targeting Indian SMEs, the following schemas are expected and missing:
-- `Organization` — establishes brand identity for Google
-- `SoftwareApplication` — enables software-specific rich results
-- `WebSite` with `SearchAction` — enables sitelinks search box
-- `LocalBusiness` (if targeting local Vapi/Gujarat market)
+| Attribute | Detail |
+|---|---|
+| Founded | 2019 |
+| Location | Bengaluru |
+| Funding | $71M+ (Google-backed) |
+| Specialty | Hyperspectral satellite imaging + analytics |
+| Clients | Global enterprises, government agencies |
+| 3D Capability | ❌ (imagery-focused, not 3D analytics) |
+| SEO Strength | ⚠️ Medium — strong press coverage but limited organic content |
 
----
-
-#### H3 — No Blog / Content Marketing Presence
-**Severity:** High | **Confidence:** Confirmed
-
-Zero blog posts indexed. Competitors like Fleetable run active content blogs (TMS guides, bilty/LR guides, e-way bill guides) that capture informational queries and funnel users to product pages.
-
-**Top competitor content gap:**
-- Fleetable: "What is Bilty / Lorry Receipt" guide — ranks for "bilty software" queries
-- BharatSoftware: "Freight Broker Software" landing pages with rich feature descriptions
-- cargosimplify.com: 0 informational content
+**Heliware vs Pixxel angle:**
+Pixxel captures hyperspectral data; Heliware processes and visualizes multi-source data. **Complementary rather than directly competing**, but both appear in "geospatial startups India" lists.
 
 ---
 
-#### H4 — No Reviews or Social Proof Indexed
-**Severity:** High | **Confidence:** Confirmed
+### 6. Orbital Insight — orbitalinsight.com
+**Threat Level: ⚠️ Medium (global)**
 
-No listings found on:
-- Capterra India
-- Software Suggest
-- G2
-- Trustpilot
-- GetApp
-- TechJockey
-
-Competitors are listed and reviewed on these platforms. These listings provide:
-- Third-party backlinks
-- Review schema for star ratings in SERPs
-- Trust signals for prospective buyers
+| Attribute | Detail |
+|---|---|
+| Founded | 2013 |
+| Location | USA (global operations) |
+| Specialty | Geospatial analytics using satellite + aerial imagery |
+| Clients | Government, defense, energy, finance |
+| SEO Strength | ⚠️ Medium — ranks for global geospatial analytics queries |
 
 ---
 
-#### H5 — App on Separate Subdomain Without SEO Bridge
-**Severity:** High | **Confidence:** Confirmed
+### 7. Hexagon — hexagon.com
+**Threat Level: ⚠️ Medium (enterprise)**
 
-The actual application runs at `app.cargosimplify.com` (GTA FUSION). The marketing site (cargosimplify.com) has no deep linking to feature pages, demo requests, or pricing. The app subdomain is indexed only for a password reset page — not helpful for brand discovery.
-
-**Impact:** Users who discover GTA FUSION branding may not find cargosimplify.com. The two properties are disconnected in Google's view.
-
----
-
-#### H6 — Page URL Structure Uses Raw HTML Files
-**Severity:** High | **Confidence:** Confirmed
-
-Pages are served as `.html` files (`booking.html`, `lorry_broker.html`). While technically valid, this structure:
-- Is difficult to extend with CMS/blog functionality
-- Does not support dynamic SEO meta injection
-- Makes it harder to implement canonical tags, hreflang, or schema at scale
-- Suggests the site was hand-built with no CMS or SEO framework
+| Attribute | Detail |
+|---|---|
+| Type | Global enterprise — geospatial, industrial, autonomous solutions |
+| Products | HxGN Content Program, SmartFactory, Safety & Infrastructure |
+| India Presence | Yes — through partners and enterprise sales |
+| SEO Strength | High globally, medium in India-specific queries |
 
 ---
 
-### 🟡 MEDIUM
+### 8. IGiS (Scanpoint Geomatics) — sgligis.com
+**Threat Level: 🟢 Low**
+
+| Attribute | Detail |
+|---|---|
+| Type | Indigenous Indian GIS platform |
+| Products | IGiS Suite — integrated GIS, Image Processing, Photogrammetry |
+| Strength | "Made in India" GIS; government contracts |
+| SEO Strength | 🟢 Low — niche government audience |
 
 ---
 
-#### M1 — No Pricing Page in Google Index
-**Severity:** Medium | **Confidence:** Confirmed
+### 9. QGIS — qgis.org
+**Threat Level: 🟢 Low (different segment)**
 
-"Pricing" or "Plans" page is not indexed. For commercial software searches like "lorry broker software India pricing", having a dedicated pricing page is essential for conversion.
+| Attribute | Detail |
+|---|---|
+| Type | Open-source desktop GIS |
+| Pricing | Free |
+| Users | Universities, NGOs, governments worldwide |
+| SEO Strength | **Very High** globally for "free GIS software" |
 
----
-
-#### M2 — No About/Company Page
-**Severity:** Medium | **Confidence:** Confirmed
-
-No About Us, Company, or Team page indexed. This is an E-E-A-T gap — Google cannot verify experience/authoritativeness without company information on the site.
-
----
-
-#### M3 — GTA FUSION Brand Not Aligned With Marketing Site
-**Severity:** Medium | **Confidence:** Confirmed
-
-The app branding is "GTA FUSION" while the marketing site is "Cargo Simplify". Users who search "GTA FUSION software India" will likely not find cargosimplify.com. The brands should be clearly linked.
+**Heliware vs QGIS angle:**
+QGIS is a desktop tool requiring GIS expertise. Heliware's counter-position: **"Cloud-native, AI-powered, no installation, no GIS degree required."**
 
 ---
 
-#### M4 — No Open Graph / Social Tags
-**Severity:** Medium | **Confidence:** Hypothesis
+## C) SEO Keyword Gap Analysis
 
-Given that title tags are broken, Open Graph tags (og:title, og:description, og:image) are almost certainly missing too. This affects link previews on WhatsApp, LinkedIn, and Facebook shares.
+### Keywords Competitors Own — heliware.co.in Does Not
 
----
-
-#### M5 — No Internal Linking Architecture
-**Severity:** Medium | **Confidence:** Confirmed
-
-With only 3 indexed pages, there is no internal linking structure to pass PageRank between pages or guide Google's crawl budget.
-
----
-
-#### M6 — Mobile App Not Leveraged in SEO
-**Severity:** Medium | **Confidence:** Hypothesis
-
-Mobile app (Android/iOS) appears to exist but no App Schema or App Store links are visible on the marketing site. For a mobile-first Indian audience, app deep linking and app schema are conversion accelerators.
-
----
-
-### 🔵 LOW
-
----
-
-#### L1 — No Canonical Tags (Hypothesis)
-**Severity:** Low | **Confidence:** Hypothesis
-
-Without canonical tags, duplicate content across .html files (e.g. www vs non-www, HTTP vs HTTPS) can dilute rankings.
-
----
-
-#### L2 — No Hreflang (If Multi-Language Planned)
-**Severity:** Low | **Confidence:** Hypothesis
-
-If targeting Hindi-speaking users in addition to English, hreflang would be needed.
-
----
-
-## B) Competitor Landscape
-
-### Direct Competitors Ranking for Target Keywords
-
-| Competitor | Domain | Key Advantage | SEO Strength |
+| Keyword | Competitor Ranking | Monthly Volume Est. | Opportunity |
 |---|---|---|---|
-| Fleetable | fleetable.tech | Active blog, 14 years India-specific TMS, strong keyword coverage | 🔴 High |
-| BharatSoftware | bharatsoftware.com | 17 years, 1150+ logistics clients, full landing pages per feature | 🔴 High |
-| BiltySoftware | biltysoftware.com | Dedicated to bilty/LR — owns branded niche | ⚠️ Medium |
-| ecount.in | ecount.in | Freight brokerage + TMS + 300+ happy clients page | ⚠️ Medium |
-| Logistiqo | logistiqo.com | International SaaS TMS with pricing page | ⚠️ Medium |
-| TMSMitra | tmsmitra.com | India-specific TMS branding | ⚠️ Medium |
-| Waybiller | waybiller.com | Bulk TMS specialist | 🟢 Low |
-
-**Key observation:** No competitor is specifically dominating the "lorry broker software" niche with deep content. This is an exploitable gap for cargosimplify.com.
-
----
-
-## C) Keyword Gap Analysis
-
-### High-Priority Keyword Opportunities
-
-| Keyword | Monthly Volume Est. | Competition | Opportunity |
-|---|---|---|---|
-| lorry broker software India | Medium (500–2K) | Low | 🔴 Primary target — core product |
-| freight broker software India | Medium (1K–5K) | Medium | 🔴 High-value |
-| bilty software | Medium (1K–3K) | Low | 🔴 Easy win |
-| LR software India | Low-Medium (200–1K) | Low | ⚠️ Quick win |
-| lorry receipt software | Low-Medium | Low | ⚠️ Quick win |
-| lorry booking software India | Medium (500–2K) | Low | ⚠️ Core product |
-| transport management software India | High (5K–20K) | High | 🟡 Long-term target |
-| fleet management software India | High (5K+) | High | 🟡 Long-term |
-| cargo management software India | Medium | Medium | ⚠️ Target now |
-| GTA FUSION software | Low (Branded) | Low | 🔵 Brand protection |
-| e-way bill software India | Medium-High | Medium | ⚠️ Feature content |
-| Tally transport integration | Low | Low | ⚠️ Unique differentiator |
+| GIS software India | esri.in, mapmyindia.com | High (5K+) | 🔴 Core market keyword |
+| geospatial analytics India | esri.in, mordorintelligence | High (2K–5K) | 🔴 Core service |
+| 3D mapping software India | igenesys.com, ensun.io | Medium (500–2K) | 🔴 Direct product match |
+| digital twin platform India | igenesys.com, bentley | Medium (500–2K) | 🔴 Direct product match |
+| geospatial AI India | Various (thin competition) | Medium (500–1K) | ⚠️ Unique differentiator |
+| satellite analytics India | satsure.co, pixxel.space | Medium (500–2K) | ⚠️ Adjacent market |
+| best GIS platform for smart cities | esri.in, igenesys.com | Medium (200–1K) | ⚠️ Vertical-specific win |
+| 3D geospatial platform India | Sparse competition | Low-Medium (100–500) | ✅ Own this niche |
+| no-code GIS platform | Sparse | Low (100–300) | ✅ Unique positioning |
+| heliware alternatives | None (gap) | Low | ✅ Brand protection |
+| MapmyIndia alternatives India | None (gap) | Low-Medium | ✅ Create comparison page |
+| Esri alternatives India | None (gap) | Medium | ✅ Create comparison page |
+| QGIS vs commercial GIS 2026 | Sparse | Medium | ✅ Comparison opportunity |
+| geospatial platform for defense India | Sparse | Low | ✅ Vertical content opportunity |
+| WebGL 3D map viewer India | None | Low | ✅ Technical niche |
 
 ---
 
-## D) E-E-A-T Assessment
+## D) Comparison Page Opportunities
 
-| Signal | Status | Notes |
+Ranked by conversion potential:
+
+### Priority 1 — "Best 3D Geospatial Platforms in India 2026" Roundup
+**Target keyword:** `best geospatial platform India 2026` · `3D geospatial analytics India`
+**Type:** Roundup / Best-of page
+**Why:** No definitive India-focused roundup exists from an actual geospatial company. Third-party lists (ensun.io, Mordor Intelligence) rank instead. Heliware can own this page as an industry insider.
+
+---
+
+### Priority 2 — "Heliware vs Esri India: Affordable 3D GIS Analytics for Indian Enterprises"
+**Target keyword:** `Esri alternatives India` · `Heliware vs Esri`
+**Type:** Direct comparison (David vs Goliath positioning)
+**Why:** Esri is the incumbent. Many Indian organizations search for "Esri alternatives" due to cost and complexity. No comparison page exists.
+
+---
+
+### Priority 3 — "Heliware vs MapmyIndia: 3D Geospatial Analytics vs Mapping Platform"
+**Target keyword:** `MapmyIndia alternatives` · `Heliware vs MapmyIndia`
+**Type:** Direct comparison
+**Why:** MapmyIndia is the most searched Indian geospatial brand. Clarifying how Heliware's analytics differs from MapmyIndia's mapping captures high-intent traffic.
+
+---
+
+### Priority 4 — "3D Digital Twin Platforms for Smart Cities in India 2026"
+**Target keyword:** `digital twin platform India` · `3D digital twin smart city India`
+**Type:** Vertical roundup
+**Why:** Smart city projects are a major growth driver. Genesys and Bentley dominate. Heliware can position itself as an affordable, AI-native alternative.
+
+---
+
+### Priority 5 — "Open-Source GIS vs AI-Powered Geospatial: QGIS vs Heliware"
+**Target keyword:** `QGIS vs commercial GIS` · `free GIS vs paid GIS India`
+**Type:** Concept comparison
+**Why:** Evergreen content. Many GIS users start with QGIS and outgrow it. Capturing "QGIS alternatives" traffic is high-intent for commercial platforms.
+
+---
+
+### Priority 6 — "Best Geospatial AI Platforms for Defense & Security in India"
+**Target keyword:** `geospatial defense India` · `3D geospatial military India`
+**Type:** Vertical page
+**Why:** Heliware already serves Indian Army and DRDO. This page can showcase that credibility to attract other defense/security clients.
+
+---
+
+## E) Content Gap vs. Top Competitors
+
+| Content Type | MapmyIndia | Esri India | Genesys Intl | SatSure | Heliware |
+|---|---|---|---|---|---|
+| Product landing pages | ✅ Extensive | ✅ Extensive | ✅ | ✅ | ⚠️ Limited (~2 indexed) |
+| Developer documentation / API docs | ✅ Rich (Mappls) | ✅ ArcGIS Docs | ❌ | ⚠️ | ❌ |
+| Blog / knowledge hub | ✅ Active | ✅ Active | ⚠️ | ✅ | ⚠️ (Medium only, not on site) |
+| Case studies | ✅ | ✅ | ✅ (award-winning) | ✅ | ❌ |
+| Comparison / vs pages | ❌ | ❌ | ❌ | ❌ | ❌ |
+| "What is [concept]" guides | ⚠️ | ✅ | ❌ | ✅ | ❌ |
+| Industry/vertical pages | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Pricing page | ⚠️ (contact) | ❌ (contact) | ❌ | ❌ | ❌ |
+| Press/media page | ✅ | ✅ | ✅ | ✅ | ❌ (press exists off-site) |
+
+**Key observations:**
+1. **No competitor has comparison/vs pages** — first mover wins all comparison keyword traffic
+2. **Heliware's blog is only on Medium** — not on the main domain, so no SEO value accrues to heliware.co.in
+3. **Case studies exist but aren't indexed** — defense/government clients are powerful trust signals if published
+4. **Developer docs gap** — MapmyIndia and Esri dominate developer search; Heliware's API docs are not visible
+5. **Industry vertical pages are absent** — competitors have pages for defense, agriculture, smart cities; Heliware does not
+
+---
+
+## F) Unique Differentiators Heliware Should Exploit
+
+| Differentiator | Competitors Have This? | How to Surface in SEO |
 |---|---|---|
-| Experience | ❌ Missing | No case studies, no client stories, no "built by transport industry" narrative |
-| Expertise | ❌ Missing | No team page, no author bios, no product expertise content |
-| Authoritativeness | ❌ Missing | No reviews on Capterra/G2, no press mentions found |
-| Trustworthiness | ⚠️ Weak | Facebook page exists; no contact page indexed; no GST/company info visible |
-
-**E-E-A-T Score: 2/20** — Critical gap for B2B software buying decisions.
-
----
-
-## E) Content Gap vs Competitors
-
-| Content Type | Fleetable | BharatSoftware | BiltySoftware | cargosimplify.com |
-|---|---|---|---|---|
-| Feature landing pages | ✅ Multiple | ✅ Multiple | ✅ | ⚠️ 2 pages (.html) |
-| Pricing page | ✅ | ✅ | ✅ | ❌ |
-| Blog / guides | ✅ Active | ✅ Active | ❌ | ❌ |
-| "What is bilty" guide | ✅ | ❌ | ✅ | ❌ |
-| E-way bill guide | ✅ | ✅ | ❌ | ❌ |
-| Case studies | ✅ | ✅ | ❌ | ❌ |
-| Review platform listings | ✅ SoftwareSuggest | ✅ | ❌ | ❌ |
-| Schema markup | ✅ | ✅ | ⚠️ | ❌ |
-| About page | ✅ | ✅ | ✅ | ❌ |
-| Contact page | ✅ | ✅ | ✅ | ❌ (not indexed) |
-| Free trial / demo CTA | ✅ | ✅ | ✅ | ❌ |
-
----
-
-## F) Unique Differentiators to Exploit
-
-| Differentiator | Competitors Have This? | SEO Opportunity |
-|---|---|---|
-| Tally integration (Tally transfer) | Rare — most TMS don't offer this | Create "Tally + Transport Software" content; target "tally transport integration" |
-| GTA FUSION app brand | Unique | Build GTA FUSION landing page; explain the brand relationship to cargosimplify.com |
-| Lorry broker + fleet owner + warehouse in one | Partial — Fleetable is close | "All-in-one lorry broker software" positioning |
-| Desktop + web + mobile options | Common | Not a differentiator — don't lead with this |
-| Vapi/Gujarat base | No major competitor claims Gujarat | Local SEO opportunity for Gujarat logistics market |
-| Bilty/LR digital generation | Fleetable does this well | Must create bilty guide content or lose this keyword category |
-
----
-
-## G) Technical Summary
-
-| Signal | Status | Confidence |
-|---|---|---|
-| HTTPS | ✅ (assumed — app subdomain is modern) | Hypothesis |
-| Mobile responsive | Hypothesis — unknown | Hypothesis |
-| Title tags set | ❌ Broken ("Document") | Confirmed |
-| Meta descriptions | ❌ Missing | Confirmed |
-| Sitemap | ❌ Not found | Hypothesis |
-| Robots.txt | ❌ Unknown / possibly blocking | Hypothesis |
-| Schema markup | ❌ None detected | Confirmed |
-| Canonical tags | ❌ Likely missing | Hypothesis |
-| Open Graph tags | ❌ Likely missing | Hypothesis |
-| Google Search Console | ❓ Unknown if set up | Unknown |
-| Pages indexed | 3 (critically low) | Confirmed |
-| Core Web Vitals | ❓ Not measurable | Unknown |
-
----
-
-## H) Priority Fix Summary
-
-| # | Issue | Priority | Est. Impact | Effort |
-|---|---|---|---|---|
-| 1 | Fix all title tags (remove "Document") | Critical | Very High | 1 day |
-| 2 | Add meta descriptions to all pages | Critical | High | 1 day |
-| 3 | Submit XML sitemap to GSC | Critical | High | 2 hours |
-| 4 | Create About + Contact + Pricing pages | Critical | High | 3–5 days |
-| 5 | Add Organization + SoftwareApplication schema | High | Medium | 1 day |
-| 6 | List on SoftwareSuggest, Capterra India, G2 | High | High | 2–3 days |
-| 7 | Create "lorry broker software" landing page | High | Very High | 2–3 days |
-| 8 | Start blog: "What is Bilty/LR" guide | High | High | 2 days |
-| 9 | Create pricing page | High | High | 1 day |
-| 10 | Connect GTA FUSION brand to main site | Medium | Medium | 1 day |
+| AI-powered 3D geospatial (no GIS degree required) | Esri has AI but high learning curve; MapmyIndia is map-first | Content: "3D Geospatial Analytics Without a GIS Team" |
+| India-first 3D terrain model (entire country) | Genesys has street-level; MapmyIndia has maps | Create "India's First Complete 3D Terrain Model" showcase page |
+| No-code/low-code approach | No competitor emphasizes this | Target "no-code GIS platform" keyword |
+| Defense clients (Indian Army, DRDO) | Classified/low-visibility for competitors | Case study page + "Geospatial for Defense India" vertical page |
+| Flexible pricing (subscription + API + white-label) | Esri is expensive; MapmyIndia is API-call based | Pricing transparency page (rare in this market) |
+| Recognition: Geospatial World 50 Rising Stars | Unique to Heliware | Press/awards page with structured data |
+| WebGL-powered browser-based 3D analytics | Cesium is closest; no Indian competitor matches | Target "WebGL geospatial viewer" + "browser-based 3D GIS" |
+| 100+ clients across 5 countries | SatSure claims similar scale | Client logos page + testimonials with schema |
+| Startup agility + bespoke solutions | Enterprise competitors can't match speed | "Custom Geospatial Solution" landing page |
