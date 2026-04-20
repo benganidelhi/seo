@@ -1,443 +1,683 @@
-# Competitor SEO Action Plan — heliware.co.in
-**Date:** 2026-04-11
-**Focus:** Comparison pages, competitive positioning, content gap capture
-**Priority:** High → Medium → Low
-**Market:** AI-powered 3D geospatial analytics, GIS platforms, digital twin — India
+# SEO Action Plan — cargosimplify.com
+**Date:** 2026-04-20
+**Audit Score:** 24/100 (Critical)
+**Priority Framework:** P0 = Fix today | P1 = This week | P2 = This month | P3 = Next month
+**Market:** Transport Management Software / Lorry Broker SaaS — India
 
 ---
 
-## First-Mover Advantage Note
+## Phase 0 — Emergency Fixes (Fix Today)
 
-A search of `site:mapmyindia.com`, `site:esri.in`, `site:igenesys.com`, and `site:satsure.co` returns **zero comparison or "vs" pages** from any competitor. Not a single Indian geospatial company has published a head-to-head comparison page. This is a massive first-mover opportunity — **whichever geospatial platform publishes these pages first will own comparison keyword traffic for years.**
+### FIX-01: Replace All Placeholder Title Tags
 
-Estimated ranking timelines:
-- Comparison pages (1,500+ words, low competition): **3–6 weeks to first page**
-- Vertical/industry pages: **4–8 weeks** (moderate competition)
-- Roundup "best of" pages: **5–10 weeks**
+The homepage and booking page have `<title>Document</title>` and `<title>Booking - Document</title>`. These must be replaced immediately.
 
----
+**Copy-paste replacements for every page:**
 
-## Comparison Pages to Create (Ordered by Priority)
+```html
+<!-- index.html / homepage -->
+<title>Lorry Broker & Transport Management Software India | Cargo Simplify</title>
+<meta name="description" content="Cargo Simplify is India's lorry broker and transport management software. Generate bilty, e-way bills, Tally integration. Desktop, Web & Mobile App. Free demo.">
 
----
+<!-- lorry-broker-software.html -->
+<title>Lorry Broker Software India — Bilty, LR & Commission Tracking | Cargo Simplify</title>
+<meta name="description" content="Cargo Simplify's lorry broker module manages bookings, bilty/LR generation, commission tracking, and fleet assignment. Built for India's GTA transport businesses.">
 
-### Page 1 — "Best 3D Geospatial Platforms in India 2026"
-**URL:** `/best-3d-geospatial-platforms-india/`
-**Target keyword:** `best geospatial platform India 2026` · `3D geospatial analytics India`
-**Type:** Roundup / Best-of
-**Word count target:** 2,000+
-**Conversion goal:** Drive to Heliware demo/contact
+<!-- booking.html -->
+<title>Transport Booking Management Software | Cargo Simplify</title>
+<meta name="description" content="Create, assign, and track cargo bookings digitally. Automated bilty generation, WhatsApp sharing, and multi-party shipper-broker-carrier workflows.">
 
-#### Full Page Blueprint
+<!-- pricing.html -->
+<title>Cargo Simplify Pricing — Desktop, Web & Mobile Plans | Lorry Broker Software</title>
+<meta name="description" content="Cargo Simplify pricing: Desktop, Web, and Enterprise plans for lorry brokers and fleet owners. Transparent pricing with Tally integration and mobile app included.">
 
-**Title:** `5 Best 3D Geospatial Platforms in India 2026 — Compared & Ranked`
-**Meta description:** `Compare India's top 3D geospatial and GIS analytics platforms in 2026. Features, pricing, use cases, and AI capabilities reviewed. Find the right platform for your enterprise.` (176 chars — trim to 160)
+<!-- about.html -->
+<title>About Cargo Simplify — Vapi, Gujarat Transport Software Company</title>
+<meta name="description" content="Cargo Simplify is a transport management software company based in Vapi, Gujarat. We build bilty, LR, and fleet management tools for India's lorry brokers.">
 
----
+<!-- contact.html -->
+<title>Contact Cargo Simplify — Free Demo & Support | Vapi, Gujarat</title>
+<meta name="description" content="Contact Cargo Simplify for a free software demo, pricing, or support. Based in Vapi, Gujarat. WhatsApp, phone, and email support available.">
 
-**H1:** 5 Best 3D Geospatial Platforms in India 2026
+<!-- gta-fusion.html -->
+<title>GTA FUSION — The Cargo Simplify Transport Management App</title>
+<meta name="description" content="GTA FUSION is the web and mobile application powering Cargo Simplify's transport management system. Access your lorry broker dashboard at app.cargosimplify.com.">
 
-**Introduction (100 words):**
-> India's geospatial market is projected to grow from $1.81B to $3.55B by 2031. Organizations across defense, smart cities, agriculture, energy, and retail need platforms that deliver actionable 3D spatial intelligence — not just static maps. We've compared the top options available in India in 2026 based on AI capabilities, ease of use, pricing model, and India-specific features.
-> *[Disclosure: Heliware operates this website and is included in this comparison.]*
+<!-- blog-what-is-bilty.html -->
+<title>What is Bilty in Transport? Complete Guide for Indian Transporters</title>
+<meta name="description" content="Learn what a bilty (lorry receipt/LR) is, its legal importance under GST, required fields, and how to generate digital bilty using transport software. 2026 guide.">
 
----
-
-**Comparison Table:**
-
-| Feature | Heliware | MapmyIndia Mappls | Esri India (ArcGIS) | Genesys International | SatSure |
-|---|---|---|---|---|---|
-| Core focus | 3D AI geospatial analytics | Mapping + navigation | Enterprise GIS | 3D mapping + digital twin | Satellite analytics |
-| 3D native visualization | ✅ (WebGL) | ✅ (RealView) | ✅ (ArcGIS Pro) | ✅ (LiDAR/aerial) | ❌ |
-| AI-powered analytics | ✅ (HeliAI) | ⚠️ Partial | ⚠️ (ML tools) | ❌ | ✅ (crop/infra) |
-| No-code / low-code | ✅ | ⚠️ | ❌ (GIS expertise required) | ❌ | ⚠️ |
-| India-built | ✅ | ✅ | ❌ (US HQ) | ✅ | ✅ |
-| Defense / government clients | ✅ (Army, DRDO) | ✅ | ✅ | ✅ | ⚠️ |
-| Developer APIs | ✅ | ✅ (extensive) | ✅ (ArcGIS API) | ❌ | ⚠️ |
-| Pricing model | Subscription + API + white-label | Per-API-call | Licence-based | Project-based | Contact |
-| Pricing transparency | ✅ | ⚠️ | ❌ | ❌ | ❌ |
-| Free tier / trial | Contact | ✅ (free API tier) | ⚠️ (trial) | ❌ | ❌ |
-| Smart city use cases | ✅ | ⚠️ | ✅ | ✅ (award-winning) | ❌ |
-| Agriculture analytics | ✅ | ⚠️ | ✅ | ❌ | ✅ |
-
-> *Data as of April 2026. Verify current features and pricing with each provider.*
-
----
-
-**Individual Reviews (200–300 words each):**
-
-**#1 Heliware**
-- Best for: Organizations needing AI-powered 3D geospatial intelligence without a dedicated GIS team
-- Unique advantage: India's first comprehensive 3D terrain model; HeliAI analytics; no-code approach; defense & government credibility
-- Clients: Indian Army, DRDO, L&T, Accenture, Nielsen
-- [Link to demo/contact page]
-
-**#2 MapmyIndia (Mappls)**
-- Best for: Mapping-centric applications, navigation, location-based services, developer API integration
-- India's most recognized mapping brand; free API tier available
-- 31 years of India map data; strong OEM and government relationships
-- No dedicated 3D analytics or AI decision intelligence layer
-
-**#3 Esri India (ArcGIS)**
-- Best for: Large enterprise and government organizations with existing GIS teams and budgets
-- Globally the most powerful GIS platform; 1,000+ spatial analysis tools
-- High cost and steep learning curve; not designed for no-code users
-
-**#4 Genesys International**
-- Best for: Smart city projects requiring physical data capture (LiDAR, aerial surveys)
-- Award-winning Varanasi 3D digital twin; Google Maps street imagery partnership
-- Data capture services (not an analytics SaaS); project-based pricing
-
-**#5 SatSure**
-- Best for: Agriculture, banking, and insurance analytics using satellite imagery
-- $29.5M funded; strong in agri-fintech; does not offer 3D visualization
-
----
-
-**CTA section:**
-> "Heliware delivers India's most accessible AI-powered 3D geospatial analytics platform — no GIS team required. [Book a Demo →](/contact/)"
-
----
-
-**Schema for this page:**
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Best 3D Geospatial Platforms in India 2026",
-  "description": "Comparison of the top 3D geospatial and GIS analytics platforms available in India in 2026.",
-  "url": "https://heliware.co.in/best-3d-geospatial-platforms-india/",
-  "numberOfItems": 5,
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Heliware", "url": "https://heliware.co.in/" },
-    { "@type": "ListItem", "position": 2, "name": "MapmyIndia Mappls", "url": "https://about.mappls.com/" },
-    { "@type": "ListItem", "position": 3, "name": "Esri India (ArcGIS)", "url": "https://www.esri.in/" },
-    { "@type": "ListItem", "position": 4, "name": "Genesys International", "url": "https://www.igenesys.com/" },
-    { "@type": "ListItem", "position": 5, "name": "SatSure", "url": "https://www.satsure.co/" }
-  ]
-}
+<!-- blog-tms-vs-excel.html -->
+<title>Transport Management Software vs Excel — Which is Better for Indian Transporters?</title>
+<meta name="description" content="Compare TMS software with Excel for managing Indian transport operations. See when Excel fails and how Cargo Simplify eliminates manual errors and billing delays.">
 ```
 
 ---
 
-### Page 2 — "Heliware vs Esri India: Affordable 3D GIS for Indian Enterprises"
-**URL:** `/heliware-vs-esri-india/`
-**Target keyword:** `Esri alternatives India` · `ArcGIS alternatives India` · `heliware vs esri`
-**Type:** Direct head-to-head comparison
-**Word count target:** 1,800+
+### FIX-02: Submit Sitemap to Google Search Console
 
-#### Blueprint
+1. Confirm `https://cargosimplify.com/sitemap.xml` is accessible (check browser)
+2. Log in to Google Search Console (https://search.google.com/search-console)
+3. Go to **Sitemaps** → Add `sitemap.xml`
+4. Use **URL Inspection** tool → request indexing for each of these URLs:
+   - `https://cargosimplify.com/`
+   - `https://cargosimplify.com/lorry-broker-software/` (after URL rename)
+   - `https://cargosimplify.com/pricing/`
+   - `https://cargosimplify.com/about/`
+   - `https://cargosimplify.com/contact/`
+   - `https://cargosimplify.com/gta-fusion/`
 
-**Title:** `Heliware vs Esri India (ArcGIS): Which 3D GIS Platform for Indian Enterprises? (2026)`
-**Meta description:** `Heliware vs Esri India compared — AI capabilities, pricing, ease of use, and India-specific features. Find out which 3D geospatial platform fits your organization in 2026.` (172 chars — trim to 160)
+**Updated sitemap.xml (replace current):**
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://cargosimplify.com/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://cargosimplify.com/lorry-broker-software/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://cargosimplify.com/transport-booking/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cargosimplify.com/gta-fusion/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cargosimplify.com/pricing/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cargosimplify.com/about/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cargosimplify.com/contact/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cargosimplify.com/blog/what-is-bilty/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cargosimplify.com/blog/transport-management-software-vs-excel/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
+```
 
-**H1:** Heliware vs Esri India — 3D Geospatial Analytics Compared (2026)
+---
 
-**Comparison Table:**
+## Phase 1 — Core SEO Implementation (This Week)
 
-| Feature | Heliware | Esri India (ArcGIS) |
-|---|---|---|
-| Founded | 2018 (India-native) | 1969 / India ops 1996 |
-| Pricing model | Subscription + API + white-label | Licence-based (high) |
-| Pricing transparency | ✅ Transparent plans | ❌ Contact for quote |
-| India-first design | ✅ Built for Indian data, regulations | ❌ US HQ; adapted for India |
-| Learning curve | ✅ No-code / low-code; minimal training | ❌ Steep; GIS expertise required |
-| 3D visualization | ✅ WebGL-native | ✅ ArcGIS Pro / Scene |
-| AI analytics | ✅ HeliAI — integrated | ⚠️ ML tools available (complex) |
-| 3D terrain (India) | ✅ Proprietary full-India 3D model | ❌ Relies on third-party data |
-| Cloud-native | ✅ | ✅ (ArcGIS Online) |
-| On-premise option | ✅ | ✅ (ArcGIS Enterprise) |
-| Defense clients (India) | ✅ Army, DRDO | ✅ (global defense) |
-| Implementation support | ✅ Bespoke | ✅ (via partners) |
-| White-label / OEM | ✅ | ⚠️ Limited |
-| Free trial | Contact | ⚠️ 21-day trial |
-| Community / docs | ⚠️ Growing | ✅ Extensive |
+### FIX-03: URL Restructuring with 301 Redirects
 
-**Verdict section:**
-> **Choose Heliware if:** you need AI-powered 3D geospatial analytics without a GIS team, want India-priced flexible subscriptions, need a white-label or bespoke solution, or want custom platform without ArcGIS complexity.
->
-> **Choose Esri India if:** your organization already has certified ArcGIS users, needs the broadest set of spatial analysis tools (1,000+), or requires global enterprise-grade SLA and community support.
+Rename all URLs from underscored `.html` to clean hyphenated slugs.
 
-**Content sections:**
-1. Why Indian organizations are evaluating Esri alternatives (cost, complexity, dependency on US pricing)
-2. Head-to-head feature comparison
-3. Pricing comparison (Heliware's flexibility vs Esri's licence model)
-4. AI capabilities in detail (HeliAI vs ArcGIS ML tools)
-5. Ease of use: who can use each without GIS training?
-6. India-specific data and compliance
-7. Verdict + CTA
+**URL mapping (add to server config / .htaccess):**
+```apache
+# .htaccess redirects — add to Apache root or equivalent Nginx config
+RewriteEngine On
 
-**Disclosure:** *Heliware operates this website. This comparison is based on publicly available information as of April 2026.*
+# Lorry broker page
+Redirect 301 /lorry_broker.html https://cargosimplify.com/lorry-broker-software/
+Redirect 301 /lorry-broker.html https://cargosimplify.com/lorry-broker-software/
 
-**Schema:**
-```json
+# Booking page
+Redirect 301 /booking.html https://cargosimplify.com/transport-booking/
+
+# Other pages
+Redirect 301 /pricing.html https://cargosimplify.com/pricing/
+Redirect 301 /about.html https://cargosimplify.com/about/
+Redirect 301 /contact.html https://cargosimplify.com/contact/
+Redirect 301 /gta-fusion.html https://cargosimplify.com/gta-fusion/
+```
+
+---
+
+### FIX-04: Add Schema Markup to Every Page
+
+#### Homepage — Organization + WebSite + SoftwareApplication
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cargosimplify.com/#organization",
+      "name": "Cargo Simplify",
+      "alternateName": "CargoSimplify",
+      "url": "https://cargosimplify.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cargosimplify.com/images/logo.png",
+        "width": 280,
+        "height": 60
+      },
+      "description": "India's lorry broker and transport management software. Bilty generation, e-way bills, Tally integration, and fleet management.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[Your Street Address]",
+        "addressLocality": "Vapi",
+        "addressRegion": "Gujarat",
+        "postalCode": "396195",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-XXXXXXXXXX",
+        "contactType": "sales",
+        "availableLanguage": ["English", "Hindi", "Gujarati"]
+      },
+      "sameAs": [
+        "https://www.facebook.com/BestLogisticsSoftware/",
+        "https://www.youtube.com/@CARGOSIMPLIFY"
+      ],
+      "foundingDate": "2023",
+      "areaServed": "IN"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cargosimplify.com/#website",
+      "url": "https://cargosimplify.com/",
+      "name": "Cargo Simplify",
+      "publisher": { "@id": "https://cargosimplify.com/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://cargosimplify.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://cargosimplify.com/#software",
+      "name": "Cargo Simplify",
+      "alternateName": "GTA FUSION",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Windows, Web Browser, Android, iOS",
+      "url": "https://cargosimplify.com/",
+      "description": "Lorry broker and transport management software for Indian GTA businesses. Includes bilty generation, LR management, e-way bill, commission tracking, and Tally integration.",
+      "featureList": [
+        "Bilty / LR generation",
+        "E-way bill integration",
+        "Commission tracking for lorry brokers",
+        "Tally Prime integration",
+        "WhatsApp LR sharing",
+        "Multi-branch support",
+        "Android & iOS mobile app",
+        "Fleet management",
+        "GST-compliant invoicing"
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "INR",
+        "lowPrice": "0",
+        "highPrice": "99999",
+        "offerCount": "3",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Desktop Plan",
+            "description": "Single-user desktop software for small lorry brokers"
+          },
+          {
+            "@type": "Offer",
+            "name": "Web Plan",
+            "description": "Cloud-based multi-user transport management"
+          },
+          {
+            "@type": "Offer",
+            "name": "Enterprise Plan",
+            "description": "Full-featured TMS with mobile app and advanced reporting"
+          }
+        ]
+      },
+      "publisher": { "@id": "https://cargosimplify.com/#organization" }
+    }
+  ]
+}
+</script>
+```
+
+#### Lorry Broker Page — SoftwareApplication + BreadcrumbList
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Cargo Simplify Lorry Broker Module",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Windows, Web Browser, Android, iOS",
+  "description": "Complete lorry broker management: booking creation, bilty generation, commission tracking, fleet assignment, and party ledgers. Built for Indian GTA transport businesses.",
+  "url": "https://cargosimplify.com/lorry-broker-software/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cargo Simplify",
+    "url": "https://cargosimplify.com/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "INR",
+    "price": "0",
+    "priceValidUntil": "2027-01-01",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Cargo Simplify"
+    }
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cargosimplify.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Lorry Broker Software", "item": "https://cargosimplify.com/lorry-broker-software/" }
+  ]
+}
+</script>
+```
+
+#### Blog Post — Article Schema (for what-is-bilty page)
+```html
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Heliware vs Esri India (ArcGIS): Which 3D GIS Platform for Indian Enterprises? (2026)",
-  "description": "Detailed comparison of Heliware and Esri India for 3D geospatial analytics — pricing, AI, ease of use, and India suitability.",
-  "url": "https://heliware.co.in/heliware-vs-esri-india/",
-  "author": { "@type": "Organization", "name": "Heliware", "url": "https://heliware.co.in/" },
-  "datePublished": "2026-04-11",
-  "dateModified": "2026-04-11"
+  "headline": "What is Bilty in Transport? Complete Guide for Indian Transporters",
+  "description": "A bilty (also called Lorry Receipt or LR) is the primary transport document used in India's road freight industry. Learn its legal status under GST, required fields, and how to generate digital bilty.",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://cargosimplify.com/images/blog/what-is-bilty-guide.jpg",
+    "width": 1200,
+    "height": 630
+  },
+  "datePublished": "2026-04-20",
+  "dateModified": "2026-04-20",
+  "author": {
+    "@type": "Organization",
+    "name": "Cargo Simplify",
+    "url": "https://cargosimplify.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cargo Simplify",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cargosimplify.com/images/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cargosimplify.com/blog/what-is-bilty/"
+  },
+  "keywords": ["bilty", "lorry receipt", "LR in transport", "transport document India", "bilty format GST"]
 }
+</script>
 ```
 
----
-
-### Page 3 — "Heliware vs MapmyIndia: Analytics Platform vs Mapping Platform"
-**URL:** `/heliware-vs-mapmyindia/`
-**Target keyword:** `MapmyIndia alternatives` · `heliware vs mapmyindia` · `geospatial analytics vs mapping India`
-**Type:** Direct comparison
-**Word count target:** 1,600+
-
-#### Blueprint
-
-**Title:** `Heliware vs MapmyIndia: 3D Geospatial Analytics vs Mapping Platform (2026)`
-**Meta description:** `Heliware vs MapmyIndia compared — analytics vs mapping, pricing, AI capabilities, and which platform suits enterprise geospatial intelligence needs in India 2026.` (163 chars — trim 3)
-
-**H1:** Heliware vs MapmyIndia — Which Geospatial Platform for Your Business?
-
-**Key positioning angle:** MapmyIndia is a **mapping company** (routes, POI, navigation). Heliware is an **analytics company** (3D insights, AI decision intelligence, visualization). Both use geospatial data but serve different decision-making needs.
-
-**Comparison Table:**
-
-| Feature | Heliware | MapmyIndia (Mappls) |
-|---|---|---|
-| Primary use case | 3D geospatial analytics + AI | Maps, navigation, location services |
-| India map data | ✅ 3D terrain + proprietary data | ✅ India's most comprehensive map dataset |
-| 3D visualization | ✅ WebGL-based analytics | ✅ RealView street imagery |
-| AI decision intelligence | ✅ HeliAI | ⚠️ Location intelligence APIs |
-| No-code analytics | ✅ | ❌ |
-| Developer APIs | ✅ | ✅ (extensive, free tier) |
-| Navigation / routing | ❌ | ✅ (core product) |
-| Fleet management | ❌ | ✅ |
-| Defense / surveillance | ✅ | ⚠️ |
-| Smart city analytics | ✅ | ⚠️ |
-| White-label platform | ✅ | ⚠️ |
-| Pricing | Subscription + bespoke | Per-API-call |
-| India HQ | ✅ Gurugram | ✅ Delhi |
-| Public company | ❌ (funded startup) | ✅ (BSE/NSE listed) |
-
-**Verdict:**
-> **Choose Heliware if:** you need AI-powered 3D spatial analytics, digital twin capabilities, or geospatial intelligence for defense/smart cities/enterprise decision-making.
->
-> **Choose MapmyIndia if:** you need map display, navigation, routing, geocoding, fleet tracking, or location-based consumer/enterprise services.
-
-**Content sections:**
-1. The key difference: maps vs analytics
-2. When you need Heliware (use cases)
-3. When you need MapmyIndia (use cases)
-4. Can you use both? (integration angle — actually not competitive for many use cases)
-5. Pricing comparison
-6. Verdict + CTA
-
----
-
-### Page 4 — "3D Digital Twin Platform India: Options for Smart Cities 2026"
-**URL:** `/3d-digital-twin-platform-india/`
-**Target keyword:** `digital twin platform India` · `3D digital twin smart city India`
-**Type:** Vertical roundup
-**Word count target:** 1,800+
-
-#### Blueprint
-
-**Title:** `3D Digital Twin Platforms for Smart Cities India 2026 — Compared`
-**Meta description:** `Comparing 3D digital twin platforms for Indian smart cities in 2026. Heliware, Genesys, Bentley, and Esri — features, use cases, and pricing for urban planners.` (162 chars — trim 2)
-
-**H1:** 3D Digital Twin Platforms for Smart Cities India 2026
-
-**Introduction:**
-> India's Smart Cities Mission covers 100 cities. 3D digital twin technology is now central to urban planning, infrastructure monitoring, disaster management, and citizen services. This guide compares the platforms being deployed in Indian smart cities in 2026.
-
-**Sections:**
-1. What is a 3D digital twin for smart cities?
-2. Comparison table (Heliware / Genesys / Bentley / Esri / ISRO Bhuvan 3D)
-3. Individual platform reviews
-4. Selection criteria for Indian municipal organizations
-5. Budget considerations (central government funding vs. municipal budget)
-6. Implementation timeline comparison
-7. CTA: Heliware's smart city solution
-
-**Comparison Table:**
-
-| Criteria | Heliware | Genesys International | Bentley iTwin | Esri India |
-|---|---|---|---|---|
-| AI-native | ✅ | ❌ | ⚠️ | ⚠️ |
-| No-code interface | ✅ | ❌ | ❌ | ❌ |
-| Data capture included | ❌ (bring own data) | ✅ (LiDAR, aerial) | ❌ | ❌ |
-| India-built | ✅ | ✅ | ❌ (USA) | ❌ (USA) |
-| Smart city deployments | ✅ | ✅ (Varanasi award) | ⚠️ | ✅ |
-| Subscription pricing | ✅ | ❌ (project-based) | ✅ | ✅ |
-| Affordability for ULBs | ✅ | ❌ (high) | ❌ (high) | ❌ (high) |
-
-**Schema:**
-```json
+#### GTA FUSION Page — SoftwareApplication + BreadcrumbList
+```html
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "3D Digital Twin Platforms for Smart Cities India 2026",
-  "url": "https://heliware.co.in/3d-digital-twin-platform-india/",
-  "numberOfItems": 4,
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Heliware", "url": "https://heliware.co.in/" },
-    { "@type": "ListItem", "position": 2, "name": "Genesys International", "url": "https://www.igenesys.com/" },
-    { "@type": "ListItem", "position": 3, "name": "Bentley iTwin", "url": "https://www.bentley.com/software/itwin-platform/" },
-    { "@type": "ListItem", "position": 4, "name": "Esri India (ArcGIS Urban)", "url": "https://www.esri.in/" }
-  ]
+  "@type": "SoftwareApplication",
+  "name": "GTA FUSION",
+  "alternateName": "Cargo Simplify Web App",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web Browser, Android, iOS",
+  "url": "https://app.cargosimplify.com/",
+  "description": "GTA FUSION is the web and mobile application platform for Cargo Simplify transport management software. Access your lorry broker dashboard, manage bookings, and generate bilty.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cargo Simplify",
+    "url": "https://cargosimplify.com/"
+  }
 }
+</script>
 ```
 
 ---
 
-### Page 5 — "Open-Source GIS vs AI-Powered Platform: QGIS vs Heliware"
-**URL:** `/qgis-vs-heliware-geospatial/`
-**Target keyword:** `QGIS alternatives India` · `open source GIS vs commercial` · `QGIS vs paid GIS 2026`
-**Type:** Concept comparison (evergreen)
-**Word count target:** 1,500+
+### FIX-05: Add Open Graph Tags to All Pages
 
-#### Blueprint
+Add this block to every page `<head>` (customized per page):
+```html
+<!-- Open Graph / WhatsApp / Facebook sharing -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cargo Simplify">
+<meta property="og:title" content="Lorry Broker & Transport Management Software India | Cargo Simplify">
+<meta property="og:description" content="India's lorry broker and transport management software. Bilty, e-way bills, Tally integration. Desktop, Web & Mobile App.">
+<meta property="og:url" content="https://cargosimplify.com/">
+<meta property="og:image" content="https://cargosimplify.com/images/og-homepage.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_IN">
 
-**Title:** `QGIS vs Heliware: Open-Source GIS vs AI-Powered 3D Geospatial (2026)`
-**Meta description:** `QGIS is free but requires GIS expertise and desktop installation. Heliware is cloud-native, AI-powered, and no-code. Compare total cost of ownership and capabilities.` (170 chars — trim)
+<!-- Canonical -->
+<link rel="canonical" href="https://cargosimplify.com/">
 
-**H1:** QGIS vs Heliware — When to Use Open-Source GIS vs AI-Powered Platform
-
-**Total Cost of Ownership Table:**
-
-| Cost Factor | QGIS (Open Source) | Heliware |
-|---|---|---|
-| Software licence | ₹0 | Subscription (contact) |
-| GIS specialist salary (required) | ₹6–15 lakh/year | Not required |
-| Training / certification | ₹20,000–1,00,000 | Included |
-| Server / cloud infrastructure | ₹1–5 lakh/year | Included |
-| Plugin maintenance | ₹50,000–2,00,000/year | ₹0 |
-| 3D visualization | ⚠️ Plugins (limited) | ✅ Native WebGL |
-| AI analytics | ❌ | ✅ HeliAI |
-| Mobile access | ⚠️ QGIS Mobile (limited) | ✅ |
-| Web publishing of maps | ⚠️ QGIS Server (complex) | ✅ One-click |
-| **Total Year 1 (1 analyst)** | **~₹8–22 lakh** | **Contact for quote** |
-
-**Content sections:**
-1. Who should use QGIS (universities, NGOs, individual GIS analysts)
-2. Who should use Heliware (enterprises, government departments, no-GIS-team organizations)
-3. When QGIS graduates to Heliware (signs you've outgrown open-source)
-4. Hybrid approach (QGIS for data prep, Heliware for visualization and sharing)
-5. TCO analysis
-6. CTA
-
----
-
-### Page 6 — "Geospatial Intelligence for Defense India: Heliware vs Alternatives"
-**URL:** `/geospatial-defense-india/`
-**Target keyword:** `geospatial platform for defense India` · `3D geospatial military analytics India`
-**Type:** Vertical page + comparison
-**Word count target:** 1,500+
-
-#### Blueprint
-
-**Title:** `Geospatial Intelligence Platforms for Defense India 2026 — Heliware vs Alternatives`
-**Meta description:** `Compare 3D geospatial intelligence platforms for Indian defense applications — Heliware (Army, DRDO certified), Esri, Genesys, and global alternatives.` (155 chars)
-
-**Key positioning:**
-> Heliware already serves the Indian Army and DRDO. This page establishes that defense credibility publicly, targeting procurement decision-makers researching geospatial solutions.
-
-**Content sections:**
-1. Requirements for defense-grade geospatial platforms (security, offline ops, 3D terrain)
-2. Heliware's defense credentials (Army, DRDO case studies — sanitized)
-3. Comparison: Heliware vs Esri (ArcGIS Defense) vs Hexagon vs Orbital Insight
-4. India-specific considerations (data sovereignty, classified data handling, DRDO standards)
-5. On-premise and air-gapped deployment options
-6. CTA: Contact defense sales team
-
----
-
-## Supporting Actions
-
-### Internal Linking Structure for Comparison Pages
-
-```
-/best-3d-geospatial-platforms-india/
-  └── links to → /heliware-vs-esri-india/
-  └── links to → /heliware-vs-mapmyindia/
-  └── links to → /3d-digital-twin-platform-india/
-  └── links to → contact or demo page
-
-/heliware-vs-esri-india/
-  └── links to → /best-3d-geospatial-platforms-india/
-  └── links to → /qgis-vs-heliware-geospatial/
-  └── links to → product/HeliAI page
-
-/heliware-vs-mapmyindia/
-  └── links to → /best-3d-geospatial-platforms-india/
-  └── links to → product pages
-
-/3d-digital-twin-platform-india/
-  └── links to → /geospatial-defense-india/
-  └── links to → smart city case study (when published)
-
-/qgis-vs-heliware-geospatial/
-  └── links to → /best-3d-geospatial-platforms-india/
-  └── links to → pricing or contact
+<!-- Robots -->
+<meta name="robots" content="index, follow">
 ```
 
 ---
 
-## Blog Content to Create (Parallel to Comparison Pages)
+### FIX-06: Updated robots.txt with AI Crawler Management
 
-These informational posts support the comparison pages and capture top-of-funnel traffic:
+Replace current `robots.txt` with:
+```
+# robots.txt — cargosimplify.com
+# Updated: 2026-04-20
 
-| Post Title | Target Keyword | Priority | Word Count |
+# Marketing site — allow all crawlers
+User-agent: *
+Allow: /
+
+# Block common non-content paths
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /cgi-bin/
+
+# AI Crawlers — Allow (opt-in to AI search visibility)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemap
+Sitemap: https://cargosimplify.com/sitemap.xml
+```
+
+**Also create `robots.txt` at `app.cargosimplify.com`:**
+```
+# robots.txt — app.cargosimplify.com
+# Block all crawlers from the app (login/dashboard pages have no SEO value)
+User-agent: *
+Disallow: /
+```
+
+---
+
+### FIX-07: Create llms.txt for AI Search Discoverability
+
+Create file at `https://cargosimplify.com/llms.txt`:
+```
+# Cargo Simplify
+> India's lorry broker and transport management software. Bilty generation, e-way bill, Tally integration, fleet management. Based in Vapi, Gujarat.
+
+## About
+Cargo Simplify (app: GTA FUSION) is a SaaS product built for India's Goods Transport Agency (GTA) businesses. It helps lorry brokers, fleet owners, and transporters manage bookings, generate digital bilty/LR, create e-way bills, track commissions, integrate with Tally Prime, and share documents via WhatsApp.
+
+## Key Features
+- Bilty / LR generation (GST-compliant)
+- E-way bill creation and submission
+- Lorry broker commission tracking
+- Tally Prime / TallyERP 9 integration
+- WhatsApp-based document sharing
+- Multi-branch, multi-user access
+- Android + iOS mobile app
+
+## Products
+- Desktop Plan: Single-user Windows software
+- Web Plan: Cloud-based multi-user TMS
+- Enterprise Plan: Full TMS + mobile app + advanced reporting
+
+## Company
+- Name: Cargo Simplify
+- Location: Vapi, Gujarat, India
+- App URL: https://app.cargosimplify.com
+
+## Pages
+- /lorry-broker-software/ — Lorry broker module details
+- /transport-booking/ — Booking management feature
+- /gta-fusion/ — About the GTA FUSION application
+- /pricing/ — Pricing plans
+- /blog/what-is-bilty/ — Educational guide: what is bilty
+- /blog/transport-management-software-vs-excel/ — TMS vs Excel comparison
+```
+
+---
+
+## Phase 2 — Off-Page & Trust Building (This Month)
+
+### FIX-08: Software Review Platform Submissions
+
+Submit Cargo Simplify to these directories (ranked by SEO value for India B2B SaaS):
+
+| Platform | URL | Expected DA | Action |
 |---|---|---|---|
-| "What is a 3D Digital Twin? Guide for Indian Urban Planners" | what is digital twin India | 🔴 High | 1,200+ |
-| "What is Geospatial Analytics? A Plain-English Guide 2026" | what is geospatial analytics | 🔴 High | 1,200+ |
-| "How HeliAI Works: AI-Powered Geospatial Analytics Explained" | geospatial AI platform India | ⚠️ Medium | 1,000+ |
-| "Move Medium Blog Posts to heliware.co.in/blog/" | (all existing Medium posts) | 🔴 Critical | Migrate existing |
-| "How Indian Army Uses 3D Geospatial Intelligence" | geospatial defense India | ⚠️ Medium | 1,000+ |
-| "India's ₹1.5 Billion Geospatial Market: Opportunities for Enterprises" | India geospatial market | 🟢 Low | 1,500+ |
+| SoftwareSuggest | softwaresuggest.com/vendor | 60+ | Submit free listing |
+| Capterra | capterra.com/vendors | 80+ | Submit free listing |
+| G2 | g2.com/sell | 80+ | Submit free listing |
+| GetApp | getapp.com | 75+ | Submit free listing |
+| IndiaMART (Software) | indiamart.com | 70+ | Create seller profile |
+| Tracxn | tracxn.com | 55+ | Register startup |
+| Justdial (Software) | justdial.com | 65+ | Add business listing |
+| Sulekha Business | sulekha.com/business | 55+ | Add business listing |
 
 ---
 
-## Immediate Technical Actions (Pre-Content)
+### FIX-09: Google Business Profile Setup
 
-Before publishing comparison pages, these technical fixes are required:
+1. Go to `business.google.com`
+2. Create new profile for "Cargo Simplify"
+3. Category: **Software Company**
+4. Address: [Full address], Vapi, Gujarat 396195
+5. Phone: +91-XXXXXXXXXX
+6. Website: https://cargosimplify.com/
+7. Upload minimum 5 photos: office exterior, team, screenshots of software
+8. Add description (750 chars max):
+   > "Cargo Simplify is India's lorry broker and transport management software, based in Vapi, Gujarat. Our GTA FUSION platform helps lorry brokers, fleet owners, and transporters manage bookings, generate digital bilty/LR, create e-way bills, and integrate with Tally. Available as Desktop, Web, and Mobile App. Free demo available."
+
+---
+
+### FIX-10: GTA FUSION Bridge Page
+
+Create `/gta-fusion/` page to capture users who search for the app name. This page should:
+- Explain that GTA FUSION = Cargo Simplify's web/mobile app
+- Include direct login CTA → `app.cargosimplify.com`
+- Include forgot password link
+- Explain what GTA stands for (Goods Transport Agency)
+- List key app features
+
+**Target keywords:** "GTA FUSION login", "GTA FUSION transport software", "GTA FUSION Cargo Simplify"
+
+---
+
+### FIX-11: Backlink Acquisition Strategy
+
+**Tier 1 — Free directories (do immediately):**
+- IndiaMART company profile
+- JustDial business listing
+- Sulekha business listing
+- Vapi local business directories (myvapi.com)
+- India Logistics & Transport forums
+
+**Tier 2 — Content outreach (within 30 days):**
+- Reach out to logistics blogs for guest posts: "How Indian Lorry Brokers Can Digitize Operations in 2026"
+- Submit a PR release to ET Logistics, Supply Chain India, CW (Cargo Week India)
+- Ask existing customers to link their website to cargosimplify.com as "powered by" or "built with"
+
+**Tier 3 — YouTube backlinks:**
+- Every YouTube video description should link to `https://cargosimplify.com/`
+- Create pinned comment with website URL on all videos
+
+---
+
+## Phase 3 — Content Marketing (Next 30–90 Days)
+
+### Blog Content Blueprint
+
+#### Article 1 — "What is Bilty in Transport? Complete Guide for Indian Transporters"
+**Target keyword:** "what is bilty in transport" (Informational)
+**URL:** `/blog/what-is-bilty/`
+**Word count:** 1,500+ words
+**Structure:**
+1. Introduction — what is bilty, why it matters (150 words)
+2. Bilty vs LR vs Consignment Note — are they the same? (200 words)
+3. Legal status of bilty under GST (200 words)
+4. What a bilty must contain — 10 required fields (250 words, table format)
+5. Paper bilty vs digital bilty — pros/cons (200 words)
+6. How to generate digital bilty with software (150 words + CTA to Cargo Simplify)
+7. Bilty FAQ — 5 common questions (300 words)
+8. Conclusion with internal links
+
+**Schema:** Article (BlogPosting)
+**Internal links:** → Lorry Broker Software page, → GTA FUSION page
+
+---
+
+#### Article 2 — "TMS vs Excel: Why Indian Transporters Are Switching in 2026"
+**Target keyword:** "transport management software vs excel India"
+**URL:** `/blog/transport-management-software-vs-excel/`
+**Word count:** 1,800+ words
+**Structure:**
+1. Introduction — why Excel feels "good enough" (150 words)
+2. What transport businesses actually need to manage (200 words)
+3. Excel limitations for Indian transport (300 words, 8-point list)
+4. What TMS software solves — feature-by-feature (300 words)
+5. Real scenario: A day in the life with Excel vs TMS (300 words)
+6. Hidden cost of Excel (error rates, time, compliance failures) (200 words)
+7. How to migrate from Excel to Cargo Simplify in 3 steps (150 words + CTA)
+8. Conclusion
+
+**Schema:** Article (BlogPosting)
+**Internal links:** → Pricing page, → Lorry Broker Software page
+
+---
+
+#### Article 3 — "E-Way Bill Guide for Lorry Brokers India 2026"
+**Target keyword:** "e-way bill lorry broker India" / "e-way bill transport software"
+**URL:** `/blog/e-way-bill-guide-lorry-brokers-india/`
+**Word count:** 1,500+ words
+**Structure:**
+1. What is e-way bill? (150 words)
+2. When is e-way bill required? Distance and value thresholds (200 words)
+3. Who generates the e-way bill? Broker vs shipper vs carrier (200 words)
+4. Step-by-step: How to generate e-way bill on GST portal (250 words)
+5. Common e-way bill errors and how to fix them (300 words)
+6. How Cargo Simplify automates e-way bill generation (150 words + CTA)
+
+**Schema:** Article (BlogPosting)
+
+---
+
+#### Article 4 — "Best Lorry Broker Software India 2026 — Compared"
+**Target keyword:** "lorry broker software India" / "best transport management software India"
+**URL:** `/blog/best-lorry-broker-software-india/`
+**Word count:** 2,000+ words
+**Structure:**
+1. What to look for in lorry broker software (200 words)
+2. Comparison table: Cargo Simplify vs Fleetable vs TransportBook vs BharatSoftware (table format)
+3. Deep dive: Cargo Simplify — features, pricing, pros/cons
+4. Deep dive: Fleetable
+5. Deep dive: TransportBook
+6. Which software is right for your business? (use-case matrix)
+7. Conclusion + CTA
+
+**Comparison Table:**
+| Feature | Cargo Simplify | Fleetable | TransportBook |
+|---|---|---|---|
+| Bilty/LR Generation | ✅ | ✅ | ✅ |
+| E-Way Bill | ✅ | ✅ | ✅ |
+| Tally Integration | ✅ | ⚠️ | ❌ |
+| WhatsApp LR Sharing | ✅ | ⚠️ | ✅ |
+| Desktop App | ✅ | ❌ | ❌ |
+| Mobile App | ✅ | ✅ | ✅ |
+| Commission Tracking | ✅ | ✅ | ⚠️ |
+| Free Trial | ✅ | ✅ | ✅ |
+| Vapi/Gujarat Support | ✅ Local | ❌ | ❌ |
+| Pricing (from) | Contact | Contact | Contact |
+
+**Schema:** Article + ItemList for the comparison section
+
+---
+
+#### Article 5 — "Tally Integration for Transport Companies India — Complete Guide"
+**Target keyword:** "tally transport software integration India"
+**URL:** `/blog/tally-transport-software-integration/`
+**Word count:** 1,200+ words
+**Structure:**
+1. Why Indian transporters use Tally
+2. The manual sync problem
+3. How TMS-Tally integration works
+4. What data syncs automatically
+5. How Cargo Simplify's Tally integration works (CTA)
+
+---
+
+## E-E-A-T Improvement Checklist
 
 | Action | Priority | Impact |
 |---|---|---|
-| Move Medium blog content to heliware.co.in/blog/ | Critical | Every off-site Medium post loses all SEO value for heliware.co.in |
-| Create a /press/ or /news/ page aggregating all YourStory/Inc42/Entrepreneur coverage | High | E-E-A-T signal; currently invisible on site |
-| Add Organization + SoftwareApplication JSON-LD to homepage | High | Google entity establishment |
-| Create /case-studies/ page (even 2 sanitized case studies) | High | E-E-A-T + conversion |
-| Add /pricing/ page (even "contact for quote" style) | Medium | Captures commercial intent searches |
-| Submit sitemap to Google Search Console | Critical | Only 7 pages indexed currently |
-| Create /developer/ or /api-docs/ landing page | Medium | Capture developer audience from MapmyIndia/Esri |
+| Add "Customers" / "Trusted by" counter on homepage | P1 | High |
+| Create Case Study page (1 real customer story) | P2 | High |
+| Add team bio page with photos | P2 | Medium |
+| Get featured in any logistics/transport industry blog | P2 | High |
+| Add Trustpilot or Google Reviews widget | P2 | High |
+| Create Privacy Policy and Terms & Conditions pages | P1 | Medium |
+| Add client logos section to homepage | P2 | Medium |
+| Link YouTube channel from footer and about page | P1 | Low |
 
 ---
 
-## KPI Targets (Track Monthly via GSC)
+## 90-Day SEO Milestone Targets
 
-| Page | Keyword Target | 3-Month Goal |
+| Week | Target | How to Verify |
 |---|---|---|
-| /best-3d-geospatial-platforms-india/ | "best geospatial platform India" | Top 5 |
-| /heliware-vs-esri-india/ | "Esri alternatives India" | Top 10 |
-| /heliware-vs-mapmyindia/ | "MapmyIndia alternatives" | Top 10 |
-| /3d-digital-twin-platform-india/ | "digital twin platform India" | Top 10 |
-| /qgis-vs-heliware-geospatial/ | "QGIS alternatives India" | Top 5 |
-| /geospatial-defense-india/ | "geospatial defense India" | Top 5 |
-
----
-
-## Positioning Statement for All Comparison Pages
-
-Use this consistent Heliware positioning across all pages:
-
-> **Heliware is India's AI-powered 3D geospatial analytics platform — built for organizations that need actionable spatial intelligence without a GIS team.**
->
-> - India-built and India-priced
-> - No GIS expertise required (no-code)
-> - WebGL-native 3D visualization
-> - Flexible: subscription, API, white-label, or bespoke
-> - Trusted by Indian Army, DRDO, L&T, Accenture, Nielsen
-
-*Disclosure note to include on every comparison page:*
-> *Heliware operates this website. This comparison is based on publicly available information as of April 2026. Competitor data should be verified directly with each provider.*
+| Week 1 | Fix all title tags; submit sitemap to GSC | GSC Coverage report |
+| Week 2 | All schema deployed; OG tags live; robots.txt updated | GSC Rich Results Test |
+| Week 3 | URLs renamed to hyphenated slugs with 301 redirects | GSC > Pages > Coverage |
+| Week 4 | 5+ directory listings submitted | Manual check |
+| Month 2 | First 2 blog posts published | GSC Search Analytics |
+| Month 2 | Google Business Profile verified | Google Search "Cargo Simplify Vapi" |
+| Month 2 | 10+ new backlinks | Google Search Console Links report |
+| Month 3 | 10+ pages indexed | `site:cargosimplify.com` in Google |
+| Month 3 | Ranking for "GTA FUSION login" brand query | Google Search |
+| Month 3 | Ranking for "what is bilty in transport" informational query | Google Search Console |
