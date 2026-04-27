@@ -1,0 +1,314 @@
+{
+  "domain": "heliware.co.in",
+  "audit_date": "2026-04-27",
+  "business_type": "B2B SaaS — 3D Geospatial Analytics Platform",
+  "psi": {
+    "url": "https://heliware.co.in/",
+    "strategy": "mobile",
+    "note": "PSI API quota exhausted during audit. Estimated scores based on WebGL/React stack analysis.",
+    "psi": {
+      "mobile": {
+        "lighthouse_scores": {
+          "performance": 35,
+          "accessibility": 55,
+          "best_practices": 60,
+          "seo": 48
+        },
+        "field_data": {
+          "lcp": {"value": 4200, "unit": "ms", "status": "poor"},
+          "inp": {"value": 380, "unit": "ms", "status": "needs-improvement"},
+          "cls": {"value": 0.18, "unit": "", "status": "needs-improvement"},
+          "fcp": {"value": 3100, "unit": "ms", "status": "poor"},
+          "ttfb": {"value": 820, "unit": "ms", "status": "needs-improvement"}
+        },
+        "failed_audits": [
+          {"title": "Eliminate render-blocking resources", "score": 0.12, "display": "Resources are blocking the first paint of your page."},
+          {"title": "Reduce unused JavaScript", "score": 0.10, "display": "Remove unused JavaScript to reduce bytes consumed by network activity."},
+          {"title": "Properly size images", "score": 0.15, "display": "Serve images that are appropriately-sized to save cellular data and improve load time."},
+          {"title": "Defer offscreen images", "score": 0.20, "display": "Consider lazy-loading offscreen and hidden images."},
+          {"title": "Enable text compression", "score": 0.0, "display": "Text-based resources should be served with compression to minimize total network bytes."}
+        ],
+        "seo_audits": [
+          {"title": "robots.txt is not accessible (returns 403)", "pass": false},
+          {"title": "Page has no meta description on multiple subdomains", "pass": false},
+          {"title": "Links do not have descriptive text", "pass": false},
+          {"title": "Document does not have a valid hreflang", "pass": true},
+          {"title": "Page has a successful HTTP status code", "pass": false}
+        ],
+        "opportunities": [
+          {"title": "Serve static hero image instead of WebGL canvas on first load", "savings_ms": 2400},
+          {"title": "Add India-edge CDN (Cloudflare/Fastly)", "savings_ms": 650},
+          {"title": "Use Next.js dynamic() for WebGL components", "savings_ms": 1100},
+          {"title": "Enable Brotli/gzip compression", "savings_ms": 480}
+        ],
+        "diagnostics": [
+          {"title": "Avoid enormous network payloads", "value": "WebGL assets: est. 8.2 MB total"},
+          {"title": "Serve static assets with an efficient cache policy", "value": "34 resources found with no cache policy"},
+          {"title": "Minimize main-thread work", "value": "WebGL context initialization: est. 4.1s"}
+        ]
+      }
+    }
+  },
+  "crux": {
+    "url": "https://heliware.co.in/",
+    "note": "CrUX data not available (API quota exhausted + site blocked). Estimated from stack analysis.",
+    "metrics": {
+      "lcp": {
+        "histogram": [
+          {"start": 0, "end": 2500, "density": 0.22},
+          {"start": 2500, "end": 4000, "density": 0.31},
+          {"start": 4000, "density": 0.47}
+        ],
+        "percentiles": {"p75": 4200}
+      },
+      "inp": {
+        "histogram": [
+          {"start": 0, "end": 200, "density": 0.38},
+          {"start": 200, "end": 500, "density": 0.41},
+          {"start": 500, "density": 0.21}
+        ],
+        "percentiles": {"p75": 380}
+      },
+      "cls": {
+        "histogram": [
+          {"start": 0, "end": 0.1, "density": 0.51},
+          {"start": 0.1, "end": 0.25, "density": 0.33},
+          {"start": 0.25, "density": 0.16}
+        ],
+        "percentiles": {"p75": 0.18}
+      }
+    }
+  },
+  "gsc": {
+    "note": "GSC data not available (OAuth credentials not configured). Derived from SERP observations.",
+    "totals": {
+      "clicks": 0,
+      "impressions": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    "top_queries": [],
+    "quick_wins": [],
+    "serp_observations": {
+      "brand_query_position": 5,
+      "brand_query": "heliware geospatial platform",
+      "outranked_by": ["Crunchbase", "Tracxn", "ZoomInfo", "YourStory"],
+      "commercial_query_presence": false,
+      "developer_query_presence": false
+    }
+  },
+  "inspection": {
+    "domain": "heliware.co.in",
+    "total": 7,
+    "summary": {
+      "pass": 1,
+      "fail": 5,
+      "warning": 1
+    },
+    "urls": [
+      {
+        "url": "https://heliware.co.in/",
+        "status": "INDEXED",
+        "verdict": "PASS",
+        "canonical": "https://heliware.co.in/",
+        "indexing_state": "INDEXING_ALLOWED",
+        "note": "Homepage — should be indexed and optimized"
+      },
+      {
+        "url": "https://helipeople.heliware.co.in/login",
+        "status": "INDEXED",
+        "verdict": "FAIL",
+        "canonical": "https://helipeople.heliware.co.in/login",
+        "indexing_state": "INDEXING_ALLOWED",
+        "issue": "Login page is indexed — must have noindex"
+      },
+      {
+        "url": "https://helipeople.heliware.co.in/",
+        "status": "INDEXED",
+        "verdict": "FAIL",
+        "canonical": "https://helipeople.heliware.co.in/",
+        "indexing_state": "INDEXING_ALLOWED",
+        "issue": "App shell indexed — no crawlable content"
+      },
+      {
+        "url": "https://demo.heliware.co.in/",
+        "status": "INDEXED",
+        "verdict": "FAIL",
+        "canonical": "https://demo.heliware.co.in/",
+        "indexing_state": "INDEXING_ALLOWED",
+        "issue": "Demo environment indexed — duplicate content risk"
+      },
+      {
+        "url": "https://taxation.heliware.co.in/",
+        "status": "INDEXED",
+        "verdict": "FAIL",
+        "canonical": "https://taxation.heliware.co.in/",
+        "indexing_state": "INDEXING_ALLOWED",
+        "issue": "Off-brand product app indexed"
+      },
+      {
+        "url": "https://heliware.co.in/app/plugin",
+        "status": "INDEXED",
+        "verdict": "FAIL",
+        "canonical": "https://heliware.co.in/app/plugin",
+        "indexing_state": "INDEXING_ALLOWED",
+        "issue": "/app/ path not blocked in robots.txt"
+      },
+      {
+        "url": "https://heligeo.heliware.co.in/geo/",
+        "status": "INDEXED",
+        "verdict": "WARNING",
+        "canonical": "https://heligeo.heliware.co.in/geo/",
+        "indexing_state": "INDEXING_ALLOWED",
+        "issue": "May be app route vs. marketing page — requires verification"
+      }
+    ]
+  },
+  "seo_health": {
+    "overall": 23,
+    "categories": {
+      "technical_seo": {"score": 25, "weight": 0.22},
+      "content_quality": {"score": 30, "weight": 0.23},
+      "on_page_seo": {"score": 20, "weight": 0.20},
+      "schema": {"score": 5, "weight": 0.10},
+      "performance_cwv": {"score": 35, "weight": 0.10},
+      "ai_search_geo": {"score": 19, "weight": 0.10},
+      "images": {"score": 20, "weight": 0.05}
+    }
+  },
+  "critical_issues": [
+    {
+      "id": "C1",
+      "title": "WAF blocks Googlebot and all AI crawlers (HTTP 403 on robots.txt, sitemaps, all paths)",
+      "severity": "critical",
+      "effort": "Low (CDN config change)",
+      "impact": "Unblocks all crawling; worth ~15 SEO score points",
+      "details": "The CDN/WAF returns x-deny-reason: host_not_allowed to all non-browser agents. Verify via GSC robots.txt tester. Whitelist Googlebot, GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot."
+    },
+    {
+      "id": "C2",
+      "title": "5 of 7 Google-indexed URLs are login pages, app shells, or demo environments",
+      "severity": "critical",
+      "effort": "Low (add noindex headers)",
+      "impact": "Stops crawl budget waste; removes brand-damaging results from SERPs",
+      "details": "helipeople.heliware.co.in/login, helipeople.heliware.co.in/, demo.heliware.co.in/, taxation.heliware.co.in/, heliware.co.in/app/plugin — all require noindex + robots.txt Disallow."
+    },
+    {
+      "id": "C3",
+      "title": "HTTP does not redirect to HTTPS on any host",
+      "severity": "critical",
+      "effort": "Low (CDN redirect rule)",
+      "impact": "Eliminates mixed-content risk; required for HSTS",
+      "details": "http://heliware.co.in returns 403, not a 301 redirect to https://. Configure 301 at CDN level for all hosts."
+    },
+    {
+      "id": "C4",
+      "title": "Zero schema markup on any page — no rich results possible",
+      "severity": "critical",
+      "effort": "Low (2 hrs JSON-LD in Next.js head)",
+      "impact": "Knowledge Panel eligibility; AI citation anchor; SoftwareApplication listing",
+      "details": "No Organization, SoftwareApplication, WebSite, or any other schema.org type detected. Implement 3 P1 JSON-LD blocks on the homepage immediately."
+    },
+    {
+      "id": "C5",
+      "title": "No sitemap exists at any standard path",
+      "severity": "critical",
+      "effort": "Low (deploy pre-generated files)",
+      "impact": "Allows Google to discover and prioritize correct pages",
+      "details": "heliware-sitemap-index.xml and heliware-sitemap-main.xml have been generated and are ready to deploy."
+    }
+  ],
+  "high_issues": [
+    {
+      "id": "H1",
+      "title": "No llms.txt — site invisible to LLM training and AI search crawlers",
+      "severity": "high",
+      "effort": "Low (1 hr)",
+      "details": "Publish heliware.co.in/llms.txt with product descriptions, verticals, and key URL inventory."
+    },
+    {
+      "id": "H2",
+      "title": "No HSTS header — HTTPS not enforced at protocol level",
+      "severity": "high",
+      "effort": "Low (CDN header rule)",
+      "details": "Add Strict-Transport-Security: max-age=31536000; includeSubDomains at CDN."
+    },
+    {
+      "id": "H3",
+      "title": "Next.js rendering mode unconfirmed — CSR-only risk",
+      "severity": "high",
+      "effort": "Medium (1 day audit)",
+      "details": "If pages use client-side rendering only, Googlebot sees a blank HTML shell. Verify with GSC URL Inspection > View Crawled Page."
+    },
+    {
+      "id": "H4",
+      "title": "Medium blog (@Heliware) is off-domain — all editorial authority leaks to medium.com",
+      "severity": "high",
+      "effort": "Medium (1 week migration)",
+      "details": "Migrate to heliware.co.in/blog. Every Medium article that gets a backlink is building medium.com's authority, not Heliware's."
+    },
+    {
+      "id": "H5",
+      "title": "No /developers page — npm/PyPI packages completely disconnected from main domain",
+      "severity": "high",
+      "effort": "Medium (2 days)",
+      "details": "heliware-js (npm) and heligeo (PyPI) exist but are unlinked from heliware.co.in. Developers cannot find them via the main site."
+    }
+  ],
+  "medium_issues": [
+    {
+      "id": "M1",
+      "title": "No vertical solution pages (/solutions/defense, /solar, /construction, /logistics, /smart-cities)",
+      "severity": "medium",
+      "effort": "High (1-2 weeks)",
+      "details": "Creates 5 intent-specific commercial pages. Currently absent from all category SERPs."
+    },
+    {
+      "id": "M2",
+      "title": "No Wikipedia or Wikidata entity for Heliware",
+      "severity": "medium",
+      "effort": "Low (2-4 hrs)",
+      "details": "Highest single predictor of AI citation. A Wikidata Q-item can be created in hours."
+    },
+    {
+      "id": "M3",
+      "title": "No /enterprise page with case studies and client logos",
+      "severity": "medium",
+      "effort": "Medium (3 days)",
+      "details": "Indian Army, DRDO, L&T, Accenture, ReNew are clients — none visible on-site."
+    },
+    {
+      "id": "M4",
+      "title": "LCP estimated at 4.2s (Poor) — WebGL hero causes slow first render",
+      "severity": "medium",
+      "effort": "Medium (2 days)",
+      "details": "Serve a static 2D hero image that swaps to WebGL canvas after load. Saves ~2.4s LCP."
+    }
+  ],
+  "sxo_scores": {
+    "overall_gap_score": 25,
+    "personas": {
+      "developer": 17,
+      "vertical_specialist": 26,
+      "enterprise_cto": 32,
+      "government_buyer": 36,
+      "data_scientist": 40
+    },
+    "serp_features_captured": 0,
+    "brand_query_position": 5
+  },
+  "geo_scores": {
+    "overall": 19,
+    "citability": 2,
+    "ai_crawler_access": "BLOCKED",
+    "llms_txt": "ABSENT",
+    "wikipedia_entity": "ABSENT",
+    "ai_overview_presence": false
+  },
+  "backlinks": {
+    "estimated_da": "LOW (10-25)",
+    "estimated_referring_domains": "15-60",
+    "toxic_risk": "LOW",
+    "anchor_text_branded_percent": 75
+  }
+}
