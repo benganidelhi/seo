@@ -1,0 +1,66 @@
+# robots.txt — heliware.co.in
+# Recommended configuration — 2026-04-27
+#
+# IMPORTANT: Each subdomain (heligeo, helipeople, demo, taxation)
+# MUST have its own robots.txt. This file only governs heliware.co.in.
+
+User-agent: *
+Allow: /
+
+# Block all app/authenticated paths on the main domain
+Disallow: /app/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /wp-admin/
+
+# Sitemap declaration — submit this URL to Google Search Console as well
+Sitemap: https://heliware.co.in/sitemap_index.xml
+
+
+# -----------------------------------------------------------------------
+# RECOMMENDED robots.txt for helipeople.heliware.co.in
+# (deploy at https://helipeople.heliware.co.in/robots.txt)
+# -----------------------------------------------------------------------
+# User-agent: *
+# Disallow: /
+#
+# Reason: entire subdomain is an authenticated app; no page should index.
+# -----------------------------------------------------------------------
+
+
+# -----------------------------------------------------------------------
+# RECOMMENDED robots.txt for demo.heliware.co.in
+# (deploy at https://demo.heliware.co.in/robots.txt)
+# -----------------------------------------------------------------------
+# User-agent: *
+# Disallow: /
+#
+# Reason: demo environment; indexing creates duplicate/thin content risk.
+# -----------------------------------------------------------------------
+
+
+# -----------------------------------------------------------------------
+# RECOMMENDED robots.txt for taxation.heliware.co.in
+# (deploy at https://taxation.heliware.co.in/robots.txt)
+# -----------------------------------------------------------------------
+# User-agent: *
+# Disallow: /
+#
+# Reason: product app, not a marketing landing page.
+# -----------------------------------------------------------------------
+
+
+# -----------------------------------------------------------------------
+# RECOMMENDED robots.txt for heligeo.heliware.co.in
+# (deploy at https://heligeo.heliware.co.in/robots.txt)
+# -----------------------------------------------------------------------
+# User-agent: *
+# Allow: /geo/          <- only if this is a public marketing landing page
+# Disallow: /app/
+# Disallow: /dashboard/
+# Disallow: /api/
+#
+# Sitemap: https://heligeo.heliware.co.in/sitemap.xml
+# -----------------------------------------------------------------------

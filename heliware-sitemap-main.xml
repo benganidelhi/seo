@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  heliware.co.in — Main Marketing Site Sitemap
+  Generated: 2026-04-27
+  Scope: Public marketing pages on heliware.co.in only.
+
+  EXCLUDED (must have noindex + must NOT appear here):
+    - https://helipeople.heliware.co.in/login       (auth gate)
+    - https://helipeople.heliware.co.in/            (app shell)
+    - https://demo.heliware.co.in/                  (demo environment)
+    - https://taxation.heliware.co.in/              (product app)
+    - https://heliware.co.in/app/plugin             (app plugin path)
+
+  SEPARATE SITEMAP (if public content exists there):
+    - https://heligeo.heliware.co.in/geo/           (product landing — own sitemap)
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://heliware.co.in/</loc>
+    <lastmod>2026-04-27</lastmod>
+  </url>
+
+  <!-- Core product / platform pages (add as confirmed public) -->
+  <!-- Example structure — populate with real confirmed URLs:
+
+  <url>
+    <loc>https://heliware.co.in/platform/</loc>
+    <lastmod>2026-04-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://heliware.co.in/products/heligeo/</loc>
+    <lastmod>2026-04-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://heliware.co.in/products/helipeople/</loc>
+    <lastmod>2026-04-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://heliware.co.in/products/taxation/</loc>
+    <lastmod>2026-04-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://heliware.co.in/solutions/</loc>
+    <lastmod>2026-04-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://heliware.co.in/pricing/</loc>
+    <lastmod>2026-04-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://heliware.co.in/about/</loc>
+    <lastmod>2026-04-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://heliware.co.in/contact/</loc>
+    <lastmod>2026-04-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://heliware.co.in/blog/</loc>
+    <lastmod>2026-04-27</lastmod>
+  </url>
+
+  -->
+
+</urlset>

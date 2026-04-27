@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Primary marketing site sitemap -->
+  <sitemap>
+    <loc>https://heliware.co.in/sitemap-main.xml</loc>
+    <lastmod>2026-04-27</lastmod>
+  </sitemap>
+
+  <!-- HeligEO product sitemap (if public marketing pages exist) -->
+  <sitemap>
+    <loc>https://heligeo.heliware.co.in/sitemap.xml</loc>
+    <lastmod>2026-04-27</lastmod>
+  </sitemap>
+
+</sitemapindex>
